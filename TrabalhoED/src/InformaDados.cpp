@@ -8,7 +8,7 @@ void InformaDados::exibeString(string s){
 }
 
 void InformaDados::exibeInteiro(int *i){
-
+	cout << *i;
 }
 
 
