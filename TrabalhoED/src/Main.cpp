@@ -10,6 +10,7 @@ using namespace std;
 int main() {
 
 	FachadaPilha f;
+
 	return 0;
 
 }
