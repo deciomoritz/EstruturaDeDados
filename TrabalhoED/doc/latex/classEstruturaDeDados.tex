@@ -1,0 +1,140 @@
+\hypertarget{classEstruturaDeDados}{\section{Referência à classe Template Estrutura\-De\-Dados$<$ Tipo $>$}
+\label{classEstruturaDeDados}\index{Estrutura\-De\-Dados$<$ Tipo $>$@{Estrutura\-De\-Dados$<$ Tipo $>$}}
+}
+Diagrama de heranças da classe Estrutura\-De\-Dados$<$ Tipo $>$\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classEstruturaDeDados}
+\end{center}
+\end{figure}
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classEstruturaDeDados_a66bd359407b52b76b5be611ef25cf847}{adicionar} (Tipo t)=0
+\begin{DoxyCompactList}\small\item\em Adiciona elemento na estrutura de dados. \end{DoxyCompactList}\item 
+virtual Tipo \hyperlink{classEstruturaDeDados_a01ddc5aec2e4a425e4021055c15e7f02}{remover} ()=0
+\begin{DoxyCompactList}\small\item\em Remove elemento da estrutura de dados. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classEstruturaDeDados_aedcdd78aed7517cfad5ddbe374d7ce88}{tamanho} ()=0
+\begin{DoxyCompactList}\small\item\em Informa tamanho da lista. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classEstruturaDeDados_a5d7866e13c2e6129e42979093569348c}{cheia} ()=0
+\begin{DoxyCompactList}\small\item\em Informa se lista está cheia. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classEstruturaDeDados_aa45fc3c6284cba7c27b9cd128e71a079}{vazia} ()=0
+\begin{DoxyCompactList}\small\item\em Informa se lista está vazia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição detalhada}
+\subsubsection*{template$<$typename Tipo$>$class Estrutura\-De\-Dados$<$ Tipo $>$}
+
+
+
+Definido na linha 2 do ficheiro Estrutura\-De\-Dados.\-h.
+
+
+
+\subsection{Documentação dos métodos}
+\hypertarget{classEstruturaDeDados_a66bd359407b52b76b5be611ef25cf847}{\index{Estrutura\-De\-Dados@{Estrutura\-De\-Dados}!adicionar@{adicionar}}
+\index{adicionar@{adicionar}!EstruturaDeDados@{Estrutura\-De\-Dados}}
+\subsubsection[{adicionar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo $>$ virtual void {\bf Estrutura\-De\-Dados}$<$ Tipo $>$\-::adicionar (
+\begin{DoxyParamCaption}
+\item[{Tipo}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classEstruturaDeDados_a66bd359407b52b76b5be611ef25cf847}
+
+
+Adiciona elemento na estrutura de dados. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & é o elemento que será adicionado à estrutura\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void
+\end{DoxyReturn}
+\begin{DoxyRemark}{Observações}
+Essa função não pode ser chamada com a estrutura cheia 
+\end{DoxyRemark}
+
+
+Implementado em \hyperlink{classEDLinear_af867a99c232007c2c11fd84cdbe603d3}{E\-D\-Linear$<$ Tipo $>$}.
+
+\hypertarget{classEstruturaDeDados_a5d7866e13c2e6129e42979093569348c}{\index{Estrutura\-De\-Dados@{Estrutura\-De\-Dados}!cheia@{cheia}}
+\index{cheia@{cheia}!EstruturaDeDados@{Estrutura\-De\-Dados}}
+\subsubsection[{cheia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo $>$ virtual bool {\bf Estrutura\-De\-Dados}$<$ Tipo $>$\-::cheia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classEstruturaDeDados_a5d7866e13c2e6129e42979093569348c}
+
+
+Informa se lista está cheia. 
+
+\begin{DoxyReturn}{Retorna}
+true se lista estiver cheia 
+\end{DoxyReturn}
+
+
+Implementado em \hyperlink{classEDLinear_a8187f3ef636dc2d82e84fa10dc27456d}{E\-D\-Linear$<$ Tipo $>$}.
+
+\hypertarget{classEstruturaDeDados_a01ddc5aec2e4a425e4021055c15e7f02}{\index{Estrutura\-De\-Dados@{Estrutura\-De\-Dados}!remover@{remover}}
+\index{remover@{remover}!EstruturaDeDados@{Estrutura\-De\-Dados}}
+\subsubsection[{remover}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo $>$ virtual Tipo {\bf Estrutura\-De\-Dados}$<$ Tipo $>$\-::remover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classEstruturaDeDados_a01ddc5aec2e4a425e4021055c15e7f02}
+
+
+Remove elemento da estrutura de dados. 
+
+\begin{DoxyReturn}{Retorna}
+Elemento retirado da estrutura
+\end{DoxyReturn}
+\begin{DoxyRemark}{Observações}
+Essa função não pode ser chamada com a estrutura vazia 
+\end{DoxyRemark}
+
+
+Implementado em \hyperlink{classPilha_a57d9edb93b911f91b4527f7ab365ef8c}{Pilha$<$ Tipo $>$} e \hyperlink{classFila_a687d9d8738e4aabeed0d7025e26d36d5}{Fila$<$ Tipo $>$}.
+
+\hypertarget{classEstruturaDeDados_aedcdd78aed7517cfad5ddbe374d7ce88}{\index{Estrutura\-De\-Dados@{Estrutura\-De\-Dados}!tamanho@{tamanho}}
+\index{tamanho@{tamanho}!EstruturaDeDados@{Estrutura\-De\-Dados}}
+\subsubsection[{tamanho}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo $>$ virtual int {\bf Estrutura\-De\-Dados}$<$ Tipo $>$\-::tamanho (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classEstruturaDeDados_aedcdd78aed7517cfad5ddbe374d7ce88}
+
+
+Informa tamanho da lista. 
+
+\begin{DoxyReturn}{Retorna}
+Inteiro representando o tamanho da lista 
+\end{DoxyReturn}
+
+
+Implementado em \hyperlink{classEDLinear_a5f36413e1900ef421dfbed681f303675}{E\-D\-Linear$<$ Tipo $>$}.
+
+\hypertarget{classEstruturaDeDados_aa45fc3c6284cba7c27b9cd128e71a079}{\index{Estrutura\-De\-Dados@{Estrutura\-De\-Dados}!vazia@{vazia}}
+\index{vazia@{vazia}!EstruturaDeDados@{Estrutura\-De\-Dados}}
+\subsubsection[{vazia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo $>$ virtual bool {\bf Estrutura\-De\-Dados}$<$ Tipo $>$\-::vazia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classEstruturaDeDados_aa45fc3c6284cba7c27b9cd128e71a079}
+
+
+Informa se lista está vazia. 
+
+\begin{DoxyReturn}{Retorna}
+true se lista estiver vazia 
+\end{DoxyReturn}
+
+
+Implementado em \hyperlink{classEDLinear_a29e7eaef660cda7d95897917b1b1973f}{E\-D\-Linear$<$ Tipo $>$}.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\-:\begin{DoxyCompactItemize}
+\item 
+Trabalho\-E\-D/src/include/Estrutura\-De\-Dados.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['vazia',['vazia',['../classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f',1,'EDLinear::vazia()'],['../classEstruturaDeDados.html#aa45fc3c6284cba7c27b9cd128e71a079',1,'EstruturaDeDados::vazia()']]]
+];
