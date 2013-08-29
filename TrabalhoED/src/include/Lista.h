@@ -4,13 +4,15 @@
 template<typename Tipo>
 class Lista: public EDLinear<Tipo> {
 
+	using EDLinear<Tipo>::vazia;
+		using EDLinear<Tipo>::cheia;
+		using EDLinear<Tipo>::arr;
+		using EDLinear<Tipo>::tamanho;
+		using EDLinear<Tipo>::topo;
+
 public:
 
-	using EDLinear<Tipo>::vazia;
-	using EDLinear<Tipo>::cheia;
-	using EDLinear<Tipo>::arr;
-	using EDLinear<Tipo>::tamanho;
-	using EDLinear<Tipo>::topo;
+
 
 	void adicionaNaPosicao(Tipo t, int posicao) {
 		if (!cheia())

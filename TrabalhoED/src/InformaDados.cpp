@@ -7,6 +7,10 @@ void InformaDados::exibeString(string s){
 	cout << s;
 }
 
+void InformaDados::exibeInteiro(int *i){
+
+}
+
 
 
 

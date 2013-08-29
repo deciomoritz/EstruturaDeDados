@@ -11,6 +11,11 @@ public:
 	 *
 	 */
 	void exibeString(string s);
+	/** @brief Exibe inteiro no console
+	 *
+	 * @param i é um ponteiro para o inteiro exibido na saída
+	 *
+	 */
+	void exibeInteiro(int * i);
 
 };
-
