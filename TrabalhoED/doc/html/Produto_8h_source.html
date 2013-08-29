@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Estrutura de Dados: Código-Fonte de TrabalhoED/src/include/Pilha.h</title>
+<title>Estrutura de Dados: Código-Fonte de TrabalhoED/src/include/Produto.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,32 +84,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">Pilha.h</div>  </div>
+<div class="title">Produto.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;EDLinear.h&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;stdexcept&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Tipo&gt;</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="classPilha.html">    5</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPilha.html">Pilha</a>: <span class="keyword">public</span> <a class="code" href="classEDLinear.html">EDLinear</a>&lt;Tipo&gt; {</div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="classProduto.html">    5</a></span>&#160;<span class="keyword">class </span><a class="code" href="classProduto.html">Produto</a> {</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">using</span> <a class="code" href="classEDLinear.html">EDLinear&lt;Tipo&gt;::vazia</a>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">using</span> <a class="code" href="classEDLinear.html">EDLinear&lt;Tipo&gt;::topo</a>;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">using</span> <a class="code" href="classEDLinear.html">EDLinear&lt;Tipo&gt;::arr</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">   20</a></span>&#160;    Tipo <a class="code" href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">remover</a>() {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f">vazia</a>())</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;              <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Tentando remover  de pilha vazia&quot;</span>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        topo--;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> arr[topo + 1];</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
-<div class="ttc" id="classPilha_html"><div class="ttname"><a href="classPilha.html">Pilha</a></div><div class="ttdef"><b>Definition:</b> <a href="Pilha_8h_source.html#l00005">Pilha.h:5</a></div></div>
-<div class="ttc" id="classEDLinear_html"><div class="ttname"><a href="classEDLinear.html">EDLinear</a></div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00006">EDLinear.h:6</a></div></div>
-<div class="ttc" id="classEDLinear_html_a29e7eaef660cda7d95897917b1b1973f"><div class="ttname"><a href="classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f">EDLinear::vazia</a></div><div class="ttdeci">bool vazia()</div><div class="ttdoc">Informa se lista está vazia. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00029">EDLinear.h:29</a></div></div>
-<div class="ttc" id="classPilha_html_a57d9edb93b911f91b4527f7ab365ef8c"><div class="ttname"><a href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">Pilha::remover</a></div><div class="ttdeci">Tipo remover()</div><div class="ttdoc">Remove elemento da estrutura de dados. </div><div class="ttdef"><b>Definition:</b> <a href="Pilha_8h_source.html#l00020">Pilha.h:20</a></div></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">string</span> nome;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> preco;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classProduto.html">Produto</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="classProduto.html">Produto</a>(<span class="keywordtype">string</span> n, <span class="keywordtype">int</span> p);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    ~<a class="code" href="classProduto.html">Produto</a>();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">string</span> getNome();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> getPreco();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">bool</span> operator &lt; (<a class="code" href="classProduto.html">Produto</a> &amp; o);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
+<div class="ttc" id="classProduto_html"><div class="ttname"><a href="classProduto.html">Produto</a></div><div class="ttdef"><b>Definition:</b> <a href="Produto_8h_source.html#l00005">Produto.h:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -10,22 +10,18 @@ Diagrama de heranças da classe Lista$<$ Tipo $>$\begin{figure}[H]
 \subsection*{Membros públicos}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classLista_a158ab14d926b6a881e92f8a98c52ca0c}{void {\bfseries adiciona\-No\-Inicio} (Tipo t)}\label{classLista_a158ab14d926b6a881e92f8a98c52ca0c}
-
-\item 
 \hypertarget{classLista_a21853f382bab3540ab6dfeece9fe3ba1}{void {\bfseries adiciona\-Na\-Posicao} (Tipo t, int posicao)}\label{classLista_a21853f382bab3540ab6dfeece9fe3ba1}
 
 \item 
 \hypertarget{classLista_a9c9a9ac8cbf7e849b2e470c3be5926a2}{void {\bfseries adiciona\-Em\-Ordem} (Tipo t)}\label{classLista_a9c9a9ac8cbf7e849b2e470c3be5926a2}
 
 \item 
-\hypertarget{classLista_a17f714047bc94715e5b77d5a98e3ef55}{Tipo {\bfseries retira\-Do\-Inicio} ()}\label{classLista_a17f714047bc94715e5b77d5a98e3ef55}
-
-\item 
+Tipo \hyperlink{classLista_a58768c31b7137a2303212b63e9804dc6}{remover} ()
+\begin{DoxyCompactList}\small\item\em Remove elemento da estrutura de dados. \end{DoxyCompactList}\item 
 \hypertarget{classLista_a554cfbab02c678a9186ffb3d80079e97}{Tipo {\bfseries retira\-Da\-Posicao} (int posicao)}\label{classLista_a554cfbab02c678a9186ffb3d80079e97}
 
 \item 
-\hypertarget{classLista_aff23d54db73f06e457eba73b886fd84f}{Tipo {\bfseries retira\-Especifico} (Tipo t)}\label{classLista_aff23d54db73f06e457eba73b886fd84f}
+\hypertarget{classLista_a29b4ed24294d84af7e6287374338f868}{void {\bfseries retira\-Especifico} (Tipo t)}\label{classLista_a29b4ed24294d84af7e6287374338f868}
 
 \item 
 \hypertarget{classLista_ad374d77a408c513004c79cd33ddc76a3}{int {\bfseries posicao} (Tipo t)}\label{classLista_ad374d77a408c513004c79cd33ddc76a3}
@@ -51,7 +47,35 @@ Diagrama de heranças da classe Lista$<$ Tipo $>$\begin{figure}[H]
 
 
 
-Definido na linha 4 do ficheiro Lista.\-h.
+Definido na linha 5 do ficheiro Lista.\-h.
+
+
+
+\subsection{Documentação dos métodos}
+\hypertarget{classLista_a58768c31b7137a2303212b63e9804dc6}{\index{Lista@{Lista}!remover@{remover}}
+\index{remover@{remover}!Lista@{Lista}}
+\subsubsection[{remover}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo $>$ Tipo {\bf Lista}$<$ Tipo $>$\-::remover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classLista_a58768c31b7137a2303212b63e9804dc6}
+
+
+Remove elemento da estrutura de dados. 
+
+\begin{DoxyReturn}{Retorna}
+Elemento retirado da estrutura
+\end{DoxyReturn}
+\begin{DoxyRemark}{Observações}
+Essa função não pode ser chamada com a estrutura vazia 
+\end{DoxyRemark}
+
+
+Implementa \hyperlink{classEstruturaDeDados_a01ddc5aec2e4a425e4021055c15e7f02}{Estrutura\-De\-Dados$<$ Tipo $>$}.
+
+
+
+Definido na linha 32 do ficheiro Lista.\-h.
 
 
 
