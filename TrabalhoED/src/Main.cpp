@@ -10,6 +10,8 @@ using namespace std;
 int main() {
 
 	FachadaPilha f;
+	
+	cout << "Teste" << endl;
 
 	return 0;
 
