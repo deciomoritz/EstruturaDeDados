@@ -1,0 +1,10 @@
+#include "Lancamento.h"
+
+Lancamento::Lancamento() {
+
+}
+
+Lancamento::~Lancamento() {
+
+}
+

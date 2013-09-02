@@ -12,8 +12,6 @@ class Lista: public EDLinear<Tipo> {
 
 public:
 
-
-
 	void adicionaNaPosicao(Tipo t, int posicao) {
 		if (!cheia())
 			topo++;
@@ -71,6 +69,10 @@ public:
 			if (igual(t, arr[i]))
 				return true;
 		return false;
+	}
+
+	Tipo verUltimo(){
+		return arr[topo];
 	}
 
 	bool igual(Tipo t1, Tipo t2) {

@@ -6,6 +6,7 @@
 CPP_SRCS += \
 ../src/FachadaPilha.cpp \
 ../src/InformaDados.cpp \
+../src/Lancamento.cpp \
 ../src/Main.cpp \
 ../src/Produto.cpp \
 ../src/RecebeDados.cpp 
@@ -13,6 +14,7 @@ CPP_SRCS += \
 OBJS += \
 ./src/FachadaPilha.o \
 ./src/InformaDados.o \
+./src/Lancamento.o \
 ./src/Main.o \
 ./src/Produto.o \
 ./src/RecebeDados.o 
@@ -20,6 +22,7 @@ OBJS += \
 CPP_DEPS += \
 ./src/FachadaPilha.d \
 ./src/InformaDados.d \
+./src/Lancamento.d \
 ./src/Main.d \
 ./src/Produto.d \
 ./src/RecebeDados.d 

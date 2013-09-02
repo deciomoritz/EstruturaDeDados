@@ -1,0 +1,17 @@
+/*
+ * Lancamento.h
+ *
+ *  Created on: 02/09/2013
+ *      Author: decio
+ */
+
+#ifndef LANCAMENTO_H_
+#define LANCAMENTO_H_
+
+class Lancamento {
+public:
+	Lancamento();
+	virtual ~Lancamento();
+};
+
+#endif /* LANCAMENTO_H_ */

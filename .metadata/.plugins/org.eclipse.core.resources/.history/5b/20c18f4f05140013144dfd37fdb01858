@@ -1,0 +1,15 @@
+#include "Lancamento.h"
+
+Lancamento::Lancamento() {
+
+}
+
+Lancamento::Lancamento(char *nome, double preco) {
+
+}
+
+Lancamento::~Lancamento() {
+
+}
+
+

@@ -1,0 +1,10 @@
+class Lancamento {
+
+public:
+	char *nome;
+	double valor;
+
+	Lancamento();
+	Lancamento(char *n, double p);
+	virtual ~Lancamento();
+};

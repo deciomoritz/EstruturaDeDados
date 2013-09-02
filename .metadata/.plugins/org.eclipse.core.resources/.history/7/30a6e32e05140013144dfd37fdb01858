@@ -1,0 +1,14 @@
+#include <string>
+
+class Lancamento {
+
+	char *nome;
+	double valor;
+
+public:
+	Lancamento();
+	Lancamento(char *nome, double string);
+	virtual ~Lancamento();
+	char *nome();
+	double valor();
+};

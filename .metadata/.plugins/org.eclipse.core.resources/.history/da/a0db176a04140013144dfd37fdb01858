@@ -1,0 +1,18 @@
+/*
+ * Lancamento.cpp
+ *
+ *  Created on: 02/09/2013
+ *      Author: decio
+ */
+
+#include "Lancamento.h"
+
+Lancamento::Lancamento() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Lancamento::~Lancamento() {
+	// TODO Auto-generated destructor stub
+}
+

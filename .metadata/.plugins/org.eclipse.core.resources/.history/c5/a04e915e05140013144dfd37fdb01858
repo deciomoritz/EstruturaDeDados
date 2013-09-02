@@ -1,0 +1,16 @@
+#include "Lancamento.h"
+
+Lancamento::Lancamento() {
+
+}
+
+Lancamento::Lancamento(char *n, double p) {
+	nome = n;
+	preco = p;
+}
+
+Lancamento::~Lancamento() {
+
+}
+
+

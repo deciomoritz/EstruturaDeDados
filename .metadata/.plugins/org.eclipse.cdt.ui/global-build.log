@@ -1,0 +1,992 @@
+16:22:12 **** Clean-only build of configuration Debug for project TrabalhoED ****
+make clean 
+rm -rf  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o  ./src/FachadaPilha.d ./src/InformaDados.d ./src/Main.d ./src/Produto.d ./src/RecebeDados.d  TrabalhoED
+ 
+16:22:13 **** Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/FachadaPilha.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FachadaPilha.d" -MT"src/FachadaPilha.d" -o "src/FachadaPilha.o" "../src/FachadaPilha.cpp"
+Finished building: ../src/FachadaPilha.cpp
+ 
+Building file: ../src/InformaDados.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InformaDados.d" -MT"src/InformaDados.d" -o "src/InformaDados.o" "../src/InformaDados.cpp"
+Finished building: ../src/InformaDados.cpp
+ 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:1:24: erro fatal: Lancamento.h: Arquivo ou diretório não encontrado
+compilação terminada.
+make: ** [src/Lancamento.o] Erro 1
+16:24:10 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:1:24: erro fatal: Lancamento.h: Arquivo ou diretório não encontrado
+compilação terminada.
+make: ** [src/Lancamento.o] Erro 1
+16:24:49 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:1:24: erro fatal: Lancamento.h: Arquivo ou diretório não encontrado
+compilação terminada.
+make: ** [src/Lancamento.o] Erro 1
+16:25:06 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+In file included from ../src/Lancamento.cpp:1:0:
+../src/include/Lancamento.h:10:13: erro: declaration of ‘char* Lancamento::nome()’
+../src/include/Lancamento.h:3:8: erro: conflicts with previous declaration ‘char* Lancamento::nome’
+../src/include/Lancamento.h:11:15: erro: declaration of ‘double Lancamento::valor()’
+../src/include/Lancamento.h:4:9: erro: conflicts with previous declaration ‘double Lancamento::valor’
+../src/Lancamento.cpp: No construtor ‘Lancamento::Lancamento(char*, double)’:
+../src/Lancamento.cpp:8:9: erro: invalid use of member (did you forget the ‘&’ ?)
+../src/Lancamento.cpp:9:2: erro: ‘preco’ was not declared in this scope
+make: ** [src/Lancamento.o] Erro 1
+16:26:09 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+In file included from ../src/Lancamento.cpp:1:0:
+../src/include/Lancamento.h:11:15: erro: declaration of ‘double Lancamento::valor()’
+../src/include/Lancamento.h:4:9: erro: conflicts with previous declaration ‘double Lancamento::valor’
+../src/Lancamento.cpp: No construtor ‘Lancamento::Lancamento(char*, double)’:
+../src/Lancamento.cpp:9:2: erro: ‘preco’ was not declared in this scope
+make: ** [src/Lancamento.o] Erro 1
+16:26:16 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: No construtor ‘Lancamento::Lancamento(char*, double)’:
+../src/Lancamento.cpp:9:2: erro: ‘preco’ was not declared in this scope
+make: ** [src/Lancamento.o] Erro 1
+16:26:21 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: No construtor ‘Lancamento::Lancamento(char*, double)’:
+../src/Lancamento.cpp:9:2: erro: ‘preco’ was not declared in this scope
+make: ** [src/Lancamento.o] Erro 1
+16:26:22 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: No construtor ‘Lancamento::Lancamento(char*, double)’:
+../src/Lancamento.cpp:9:2: erro: ‘preco’ was not declared in this scope
+make: ** [src/Lancamento.o] Erro 1
+16:26:33 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Produto.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Produto.d" -MT"src/Produto.d" -o "src/Produto.o" "../src/Produto.cpp"
+Finished building: ../src/Produto.cpp
+ 
+Building file: ../src/RecebeDados.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RecebeDados.d" -MT"src/RecebeDados.d" -o "src/RecebeDados.o" "../src/RecebeDados.cpp"
+Finished building: ../src/RecebeDados.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:26:54 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:27:13 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:16:22: erro: ISO C++ forbids declaration of ‘getValor’ with no type [-fpermissive]
+../src/Lancamento.cpp:16:1: erro: prototype for ‘int Lancamento::getValor()’ does not match any in class ‘Lancamento’
+../src/include/Lancamento.h:11:9: erro: candidato é: double Lancamento::getValor()
+make: ** [src/Lancamento.o] Erro 1
+16:27:38 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:27:58 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:20:6: erro: prototype for ‘char Lancamento::getNome()’ does not match any in class ‘Lancamento’
+../src/include/Lancamento.h:10:8: erro: candidato é: char* Lancamento::getNome()
+make: ** [src/Lancamento.o] Erro 1
+16:28:17 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:26 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:34 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:57 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:58 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:58 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:59 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:59 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:28:59 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:29:11 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:29:38 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:20:2: erro: expected unqualified-id before ‘char’
+../src/Lancamento.cpp:20:2: erro: expected constructor, destructor, or type conversion before ‘char’
+make: ** [src/Lancamento.o] Erro 1
+16:29:51 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:29:58 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:21:14: erro: expected primary-expression before ‘;’ token
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:30:15 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:30:40 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:30:50 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:31:09 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:44:23 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:22:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:23:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:44:35 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:21:2: erro: expected unqualified-id before ‘char’
+../src/Lancamento.cpp:21:2: erro: expected constructor, destructor, or type conversion before ‘char’
+make: ** [src/Lancamento.o] Erro 1
+16:44:37 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:22:9: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:23:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:44:46 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:22:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:23:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:46:28 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:46:44 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:46:47 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:46:50 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:47:09 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:47:12 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função ‘char Lancamento::* getNome()’:
+../src/Lancamento.cpp:21:10: erro: ‘nome’ was not declared in this scope
+../src/Lancamento.cpp:22:1: aviso: control reaches end of non-void function [-Wreturn-type]
+make: ** [src/Lancamento.o] Erro 1
+16:48:19 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp: Na função membro ‘char* Lancamento::getNome()’:
+../src/Lancamento.cpp:21:10: erro: conversão de ‘char’ para ‘char*’ inválida [-fpermissive]
+make: ** [src/Lancamento.o] Erro 1
+16:48:25 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:114:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:115:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:48:28 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:114:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:115:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:48:36 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:114:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:115:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:48:55 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:20: erro: invalid type in declaration before ‘;’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:15:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:16:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:16:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:16:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:19:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:24:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:44:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:54:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:59:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:61:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:61:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:103:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:103:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:104:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:104:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:104:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:115:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:118:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:49:07 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:114:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:115:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:50:03 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:114:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:115:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:50:18 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:32: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:115:28: erro: ‘class Lista<int>’ has no member named ‘verTrasacao’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘int main()’:
+../src/Trabalho03.cpp:145:18: erro: cannot convert ‘Lista<int>*’ to ‘int*’ in assignment
+make: ** [src/Trabalho03.o] Erro 1
+16:50:23 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:13:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:13:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:13:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:13:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:14:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:15:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:15:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:15:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:18:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:21:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:22:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:23:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:43:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:53:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:58:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:60:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:102:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:102:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:103:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:103:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:103:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:114:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:115:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:116:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:117:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:50:45 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:17:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:17:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:17:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:17:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:18:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:18:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:18:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:18:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:19:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:19:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:19:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:22:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:25:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:26:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:27:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:47:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:57:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:62:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:106:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:106:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:107:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:107:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:107:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:118:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:119:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:120:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:121:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:50:53 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:20: erro: invalid type in declaration before ‘;’ token
+../src/Trabalho03.cpp:17:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:17:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:17:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:17:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:18:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:18:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:18:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:18:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:19:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:19:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:19:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:22:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:25:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:26:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:27:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:47:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:57:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:62:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:106:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:106:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:107:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:107:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:107:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:118:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:119:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:120:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:121:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:51:28 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+../src/Lancamento.cpp:5:2: erro: stray ‘\’ in program
+make: ** [src/Lancamento.o] Erro 1
+16:51:30 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:20: erro: invalid type in declaration before ‘;’ token
+../src/Trabalho03.cpp:17:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:17:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:17:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:17:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:18:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:18:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:18:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:18:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:19:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:19:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:19:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:22:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:25:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:26:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:27:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:47:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:57:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:62:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:106:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:106:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:107:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:107:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:107:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:118:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:119:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:120:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:121:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:51:37 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:20: erro: invalid type in declaration before ‘;’ token
+../src/Trabalho03.cpp:17:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:17:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:17:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:17:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:18:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:18:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:18:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:18:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:19:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:19:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:19:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:22:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:25:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:26:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:27:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:47:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:57:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:62:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:106:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:106:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:107:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:107:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:107:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:118:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:119:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:120:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:121:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:51:44 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Trabalho03.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho03.d" -MT"src/Trabalho03.d" -o "src/Trabalho03.o" "../src/Trabalho03.cpp"
+../src/Trabalho03.cpp:14:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:14:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:14:20: erro: invalid type in declaration before ‘;’ token
+../src/Trabalho03.cpp:17:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:17:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:17:32: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:17:39: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:18:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:18:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:18:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp:18:38: erro: missing template arguments before ‘(’ token
+../src/Trabalho03.cpp:19:7: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:19:17: erro: template argument 1 is invalid
+../src/Trabalho03.cpp:19:31: erro: invalid type in declaration before ‘=’ token
+../src/Trabalho03.cpp: Na função ‘void listarTran()’:
+../src/Trabalho03.cpp:22:20: erro: request for member ‘vazia’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:25:38: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:26:47: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:27:20: erro: request for member ‘mostra’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp: Na função ‘void remTran()’:
+../src/Trabalho03.cpp:47:16: erro: request for member ‘destroiLista’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:57:45: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:62:19: erro: request for member ‘verUltimo’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:20: erro: request for member ‘retiraDaPosicao’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:64:46: erro: ‘ERROPOSICAOLAN’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void lancarTran()’:
+../src/Trabalho03.cpp:106:2: erro: ‘Lancamento’ was not declared in this scope
+../src/Trabalho03.cpp:106:13: erro: expected ‘;’ before ‘lan’
+../src/Trabalho03.cpp:107:18: erro: request for member ‘adiciona’ in ‘* listaAtual’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:107:27: erro: ‘lan’ was not declared in this scope
+../src/Trabalho03.cpp:107:35: erro: ‘ERROLISTACHEIA’ was not declared in this scope
+../src/Trabalho03.cpp: Na função ‘void mostraSaldo()’:
+../src/Trabalho03.cpp:118:36: erro: request for member ‘verUltimo’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:119:28: erro: request for member ‘verTrasacao’ in ‘listaCredito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:120:35: erro: request for member ‘verUltimo’ in ‘listaDebito’, which is of non-class type ‘int’
+../src/Trabalho03.cpp:121:26: erro: request for member ‘verTrasacao’ in ‘listaDebito’, which is of non-class type ‘int’
+make: ** [src/Trabalho03.o] Erro 1
+16:52:53 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:53:05 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
+16:53:13 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+Building file: ../src/Lancamento.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lancamento.d" -MT"src/Lancamento.d" -o "src/Lancamento.o" "../src/Lancamento.cpp"
+Finished building: ../src/Lancamento.cpp
+ 
+Building target: TrabalhoED
+Invoking: GCC C++ Linker
+g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o   
+Finished building target: TrabalhoED
+ 
