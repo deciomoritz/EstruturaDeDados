@@ -1,0 +1,25 @@
+#include "include/FachadaPilha.h"
+#include "include/Lista.h"
+
+#include "include/Lancamento.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	char c[7] = "batata";
+
+	Lancamento l(c, 10);
+
+	Lista<Lancamento> lista;
+
+	lista.adicionar(l);
+
+
+	char* a = lista.remover();
+
+	return 0;
+
+}

@@ -4,13 +4,13 @@
 template<typename Tipo>
 class Lista: public EDLinear<Tipo> {
 
-	using EDLinear<Tipo>::vazia;
-		using EDLinear<Tipo>::cheia;
-		using EDLinear<Tipo>::arr;
-		using EDLinear<Tipo>::tamanho;
-		using EDLinear<Tipo>::topo;
-
 public:
+
+	using EDLinear<Tipo>::vazia;
+	using EDLinear<Tipo>::cheia;
+	using EDLinear<Tipo>::arr;
+	using EDLinear<Tipo>::tamanho;
+	using EDLinear<Tipo>::topo;
 
 	void adicionaNaPosicao(Tipo t, int posicao) {
 		if (!cheia())
@@ -33,7 +33,8 @@ public:
 		if (!vazia()) {
 			for (int i = 0; i > tamanho() - 1; i++)
 				arr[i] = arr[i + 1];
-			return arr[topo--];
+
+			return arr[topo++];
 		}
 		throw std::runtime_error("Tentando remover elemento de pilha vazia");
 	}
@@ -71,8 +72,8 @@ public:
 		return false;
 	}
 
-	Tipo verUltimo(){
-		return arr[topo];
+	int verUltimo(){
+		return topo;
 	}
 
 	bool igual(Tipo t1, Tipo t2) {

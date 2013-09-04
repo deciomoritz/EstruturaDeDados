@@ -1,0 +1,8 @@
+#include "Lancamento.h"
+
+class ListaContabil : public EstruturaDeDados<Lancamento>{
+public:
+	ListaContabil();
+	virtual ~ListaContabil();
+
+};

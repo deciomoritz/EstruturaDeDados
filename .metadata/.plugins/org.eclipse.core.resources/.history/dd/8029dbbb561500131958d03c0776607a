@@ -1,0 +1,22 @@
+#include "include/FachadaPilha.h"
+#include "include/Lista.h"
+
+#include "include/Lancamento.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	char c[6];
+	c = "teste";
+
+	char b;
+	char b[80] = "uma coisa qualquer";
+
+	Lancamento l(c, 10);
+
+	return 0;
+
+}

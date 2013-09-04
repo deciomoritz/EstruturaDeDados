@@ -1,0 +1,6 @@
+class ListaContabil {
+public:
+	ListaContabil();
+	virtual ~ListaContabil();
+
+};
