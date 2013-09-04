@@ -172,6 +172,5 @@ int main() {
 					" das opções listadas acima!";
 		} 
 	}
-
 }
 

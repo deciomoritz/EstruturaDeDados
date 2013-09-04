@@ -8,6 +8,6 @@ ListaContabil::~ListaContabil() {
 
 Lancamento ListaContabil::mostrar(int i) {
 	Lancamento l(this->retiraDaPosicao(i));
-	adicionaNaPosicao(l, i);
+	this->adicionaNaPosicao(l, i);
 	return l;
 }

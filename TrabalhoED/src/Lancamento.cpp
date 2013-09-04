@@ -25,17 +25,11 @@ char* Lancamento::getNome(){
 }
 
 Lancamento::Lancamento(const Lancamento& outro) {
-
 	valor = outro.valor;
 
 	int quant;
 	quant = strlen(outro.nome);
 
-	//char c[quant];
-	//strcpy(c, outro.nome);
-
 	nome = new char[quant];
 	strcpy(nome, outro.nome);
-	//std::cout << nome << std::endl;
-
 }

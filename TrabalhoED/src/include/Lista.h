@@ -31,20 +31,18 @@ public:
 
 	Tipo remover() {
 		if (!vazia()) {
-			for (int i = 0; i > tamanho() - 1; i++)
-				arr[i] = arr[i + 1];
-
-			return arr[topo++];
+			return arr[topo--];
 		}
 		throw std::runtime_error("Tentando remover elemento de pilha vazia");
 	}
 
 	Tipo retiraDaPosicao(int posicao) {
 		if (!vazia()) {
+			Tipo aux = arr[posicao];
 			for (int i = posicao; i < tamanho() - 1; i++)
 				arr[i] = arr[i + 1];
 			topo--;
-			return arr[posicao];
+			return aux;
 		}
 		throw std::runtime_error("Tentando remover elemento de pilha vazia");
 	}

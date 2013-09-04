@@ -1,7 +1,7 @@
 /*#include "include/FachadaPilha.h"
-#include "include/Lista.h"
+#include "include/ListaContabil.h"
 
-#include "include/Lancamento.h"
+//#include "include/Lancamento.h"
 
 #include <iostream>
 
@@ -9,21 +9,27 @@ using namespace std;
 
 int main() {
 
-	Lista<Lancamento> lista;
 
-	char c[10] = "asd";
-	Lancamento l1(c, 12);
+	ListaContabil l1;
+	l1.adicionar(Lancamento("a",1));
+	l1.adicionar(Lancamento("b",2));
+	l1.adicionar(Lancamento("c",3));
+	for(int i=0;i<3;i++)
+		cout << l1.mostrar(i).getNome() << endl;
 
-	lista.adicionar(l1);
+	Lista<int> l;
 
+	l.adicionar(1);
+	l.adicionar(2);
+	l.adicionar(3);
+	l.adicionar(5);
+	l.adicionar(6);
 
-	l1 = Lancamento(c, 22);
+	cout << l.retiraDaPosicao(3) << endl;
 
-	lista.adicionar(l1);
+	//while(!l.vazia())
+		//cout << l.remover() << endl;
 
-	while(!lista.vazia())
-		//cout << lista.remover() << endl;
-		cout << "teste";
 
 	return 0;
 
