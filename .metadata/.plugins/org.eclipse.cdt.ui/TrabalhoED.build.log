@@ -1,10 +1,6 @@
-15:56:06 **** Incremental Build of configuration Debug for project TrabalhoED ****
+11:10:39 **** Incremental Build of configuration Debug for project TrabalhoED ****
 make all 
-Building target: TrabalhoED
-Invoking: GCC C++ Linker
-g++  -o "TrabalhoED"  ./src/FachadaPilha.o ./src/InformaDados.o ./src/Lancamento.o ./src/ListaContabil.o ./src/Main.o ./src/Produto.o ./src/RecebeDados.o ./src/Trabalho03.o   
-Finished building target: TrabalhoED
- 
+make: Nada a ser feito para `all'.
 
-15:56:06 Build Finished (took 64ms)
+11:10:39 Build Finished (took 65ms)
 

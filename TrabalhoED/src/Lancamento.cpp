@@ -1,6 +1,5 @@
 #include "include/Lancamento.h"
 #include <cstring>
-#include <iostream>
 
 Lancamento::Lancamento() {
 	valor = 0;
@@ -13,7 +12,6 @@ Lancamento::Lancamento(char *n, double v) {
 }
 
 Lancamento::~Lancamento() {
-
 }
 
 double Lancamento::getValor(){

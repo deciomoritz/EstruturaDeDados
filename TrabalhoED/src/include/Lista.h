@@ -21,12 +21,14 @@ public:
 	}
 
 	void adicionaEmOrdem(Tipo t) {
-		if (!cheia())
-			for (int i = 0; i < tamanho(); i++)
-				if (menor(t, arr[i])) {
-					adicionaNaPosicao(t, i);
-					return;
-				}
+		if (cheia())
+			return;
+		for (int i = 0; i < tamanho(); i++)
+			if (menor(t, arr[i])) {
+				adicionaNaPosicao(t, i);
+				return;
+			}
+		adicionaNaPosicao(t, topo+1);
 	}
 
 	Tipo remover() {
@@ -47,11 +49,10 @@ public:
 		throw std::runtime_error("Tentando remover elemento de pilha vazia");
 	}
 
-	void retiraEspecifico(Tipo t) {
+	Tipo retiraEspecifico(Tipo t) {
 		for (int i = 0; i < tamanho(); i++)
-			if (igual(t, arr[i])){
-				retiraDaPosicao(i);
-				return;
+			if (igual(t, arr[i])) {
+				return retiraDaPosicao(i);
 			}
 		throw std::runtime_error("Elemento não encontrado");
 	}
@@ -70,20 +71,29 @@ public:
 		return false;
 	}
 
-	int verUltimo(){
+	/** @brief Pega elemento índice i da lista. Método a ser removido
+	 *
+	 * @return Elemento retirado da estrutura
+	 *
+	 * @remarks Essa função não pode ser chamada com a estrutura vazia
+	 */
+	Tipo mostrar(int i) {
+		if (!vazia())
+			return arr[i];
+		throw std::runtime_error("Lista vazia");
+	}
+
+	/** @brief Pega índice do último elemento da estrutura
+	 *
+	 * @return int
+	 */
+	int verUltimo() {
 		return topo;
 	}
 
-	bool igual(Tipo t1, Tipo t2) {
-		return t1 == t2;
-	}
+	virtual bool igual(Tipo t1, Tipo t2) = 0;
 
-	bool maior(Tipo t1, Tipo t2) {
-		return t1 > t2;
-	}
+	virtual bool maior(Tipo t1, Tipo t2) = 0;
 
-	bool menor(Tipo t1, Tipo t2) {
-		return t1 < t2;
-	}
-
+	virtual bool menor(Tipo t1, Tipo t2) = 0;
 };

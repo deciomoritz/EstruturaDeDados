@@ -7,31 +7,31 @@ CPP_SRCS += \
 ../src/FachadaPilha.cpp \
 ../src/InformaDados.cpp \
 ../src/Lancamento.cpp \
+../src/ListaChar.cpp \
 ../src/ListaContabil.cpp \
 ../src/Main.cpp \
 ../src/Produto.cpp \
-../src/RecebeDados.cpp \
-../src/Trabalho03.cpp 
+../src/RecebeDados.cpp 
 
 OBJS += \
 ./src/FachadaPilha.o \
 ./src/InformaDados.o \
 ./src/Lancamento.o \
+./src/ListaChar.o \
 ./src/ListaContabil.o \
 ./src/Main.o \
 ./src/Produto.o \
-./src/RecebeDados.o \
-./src/Trabalho03.o 
+./src/RecebeDados.o 
 
 CPP_DEPS += \
 ./src/FachadaPilha.d \
 ./src/InformaDados.d \
 ./src/Lancamento.d \
+./src/ListaChar.d \
 ./src/ListaContabil.d \
 ./src/Main.d \
 ./src/Produto.d \
-./src/RecebeDados.d \
-./src/Trabalho03.d 
+./src/RecebeDados.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

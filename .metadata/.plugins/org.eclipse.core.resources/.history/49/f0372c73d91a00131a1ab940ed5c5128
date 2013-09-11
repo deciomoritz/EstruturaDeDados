@@ -1,0 +1,14 @@
+/*
+ * Main.h
+ *
+ *  Created on: 11/09/2013
+ *      Author: decio
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+class Main {
+};
+
+#endif /* MAIN_H_ */

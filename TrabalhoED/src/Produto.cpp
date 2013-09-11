@@ -24,3 +24,11 @@ int Produto::getPreco() {
 bool Produto::operator <(Produto& o) {
 	return this->preco < o.preco;
 }
+
+bool Produto::operator >(Produto& o) {
+	return this->preco > o.preco;
+}
+
+bool Produto::operator ==(Produto& o) {
+	return this->preco == o.preco;
+}
