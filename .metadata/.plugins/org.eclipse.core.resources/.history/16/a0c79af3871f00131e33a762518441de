@@ -1,0 +1,14 @@
+/*
+ * Elemento.cpp
+ *
+ *  Created on: 17/09/2013
+ *      Author: decio
+ */
+
+#include "Elemento.h"
+
+Elemento::Elemento() {
+	// TODO Auto-generated constructor stub
+
+}
+

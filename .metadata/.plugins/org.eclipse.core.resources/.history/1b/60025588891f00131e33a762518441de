@@ -1,0 +1,13 @@
+#include "Elemento.h"
+
+template<typename Tipo>
+class Lista{
+
+	Elemento* cabeca;
+	int tamanho;
+
+public:
+	void adicionarNaCabeca(){
+
+	}
+};

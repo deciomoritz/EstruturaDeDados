@@ -1,0 +1,16 @@
+/*
+ * Elemento.h
+ *
+ *  Created on: 17/09/2013
+ *      Author: decio
+ */
+
+#ifndef ELEMENTO_H_
+#define ELEMENTO_H_
+
+class Elemento {
+public:
+	Elemento();
+};
+
+#endif /* ELEMENTO_H_ */

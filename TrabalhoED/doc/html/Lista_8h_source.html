@@ -170,12 +170,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> topo;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> igual(Tipo t1, Tipo t2) = 0;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> maior(Tipo t1, Tipo t2) = 0;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> igual(Tipo t1, Tipo t2){</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> t1 == t2;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> menor(Tipo t1, Tipo t2) = 0;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;};</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> maior(Tipo t1, Tipo t2){</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">return</span> t1 &gt; t2;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> menor(Tipo t1, Tipo t2){</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">return</span> t1 &lt; t2;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;};</div>
 <div class="ttc" id="classEDLinear_html_a5f36413e1900ef421dfbed681f303675"><div class="ttname"><a href="classEDLinear.html#a5f36413e1900ef421dfbed681f303675">EDLinear::tamanho</a></div><div class="ttdeci">int tamanho()</div><div class="ttdoc">Informa tamanho da lista. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00025">EDLinear.h:25</a></div></div>
 <div class="ttc" id="classEDLinear_html_a8187f3ef636dc2d82e84fa10dc27456d"><div class="ttname"><a href="classEDLinear.html#a8187f3ef636dc2d82e84fa10dc27456d">EDLinear::cheia</a></div><div class="ttdeci">bool cheia()</div><div class="ttdoc">Informa se lista está cheia. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00033">EDLinear.h:33</a></div></div>
 <div class="ttc" id="classLista_html_a58768c31b7137a2303212b63e9804dc6"><div class="ttname"><a href="classLista.html#a58768c31b7137a2303212b63e9804dc6">Lista::remover</a></div><div class="ttdeci">Tipo remover()</div><div class="ttdoc">Remove elemento da estrutura de dados. </div><div class="ttdef"><b>Definition:</b> <a href="Lista_8h_source.html#l00034">Lista.h:34</a></div></div>
@@ -187,7 +193,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Gerado em Quarta, 11 de Setembro de 2013 11:12:55 para Estrutura de Dados por &#160;<a href="http://www.doxygen.org/index.html">
+Gerado em Segunda, 16 de Setembro de 2013 08:37:53 para Estrutura de Dados por &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

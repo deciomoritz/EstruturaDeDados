@@ -1,0 +1,12 @@
+#include "Lista.h"
+
+int main(){
+	Lista<int> l;
+
+	int a = 3;
+
+	//l.adicionarNaCabeca(&a);
+
+
+	return 0;
+}

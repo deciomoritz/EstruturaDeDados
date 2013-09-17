@@ -1,0 +1,9 @@
+
+template<typename Tipo>
+class Elemento {
+
+
+
+public:
+	Elemento();
+};

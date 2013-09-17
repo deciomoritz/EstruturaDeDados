@@ -149,7 +149,7 @@ char* lerString() {
     
     int quant = strlen(buffer);
     point = new char[quant];
-    point = strcpy(point, buffer);
+    strcpy(point, buffer);
     
     //point = new char[strlen(buffer)];
     //point = strcpy(point, buffer);

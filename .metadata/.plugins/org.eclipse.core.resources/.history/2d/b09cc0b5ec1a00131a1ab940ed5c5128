@@ -1,0 +1,11 @@
+#include "Lista.h"
+#include <string>
+
+class ListaChar: public Lista<char*> {
+
+	bool igual(char* t1, char* t2);
+
+	bool maior(char* t1, char* t2);
+
+	bool menor(char* t1, char* t2);
+};
