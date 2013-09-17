@@ -30,9 +30,7 @@ public:
 			else
 				cabeca = cabeca->proximo;
 			tamanho--;
-			Tipo dado = aux->dado;
-			delete aux;
-			return dado;
+			return aux->dado;
 		}
 		throw std::runtime_error("Tentando remover elemento de lista vazia");
 	}

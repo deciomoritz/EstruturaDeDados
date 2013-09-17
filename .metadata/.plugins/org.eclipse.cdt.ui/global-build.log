@@ -205,3 +205,326 @@ Invoking: Cross G++ Linker
 g++  -o "EDComPonteiros"  ./src/Main.o   
 Finished building target: EDComPonteiros
  
+18:38:01 **** Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:38:03 **** Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:38:10 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:39:06 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:26: error: lvalue required as unary ‘&’ operand
+make: ** [src/Main.o] Erro 1
+18:39:08 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:39:26 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:27: error: expected primary-expression before ‘;’ token
+make: ** [src/Main.o] Erro 1
+18:39:27 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:39:37 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:26: error: invalid type argument of unary ‘*’ (have ‘int’)
+make: ** [src/Main.o] Erro 1
+18:39:39 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:39:44 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:26: error: lvalue required as unary ‘&’ operand
+make: ** [src/Main.o] Erro 1
+18:39:45 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:39:50 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:25: error: invalid conversion from ‘int’ to ‘int*’ [-fpermissive]
+make: ** [src/Main.o] Erro 1
+18:39:51 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:40:37 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:26: error: lvalue required as unary ‘&’ operand
+make: ** [src/Main.o] Erro 1
+18:40:38 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:42:26 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:27: warning: ‘p’ may be used uninitialized in this function [-Wuninitialized]
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+18:42:28 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:42:36 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+18:42:38 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:42:47 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:43:07 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:43:44 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:26: error: lvalue required as unary ‘&’ operand
+make: ** [src/Main.o] Erro 1
+18:43:45 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:43:55 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:20:28: error: lvalue required as unary ‘&’ operand
+make: ** [src/Main.o] Erro 1
+18:43:56 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:45:42 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+18:45:44 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:46:00 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+In file included from ../src/Main.cpp:1:0:
+../src/Lista.h: In instantiation of ‘void Lista<Tipo>::adicionarNoInicio(Tipo) [with Tipo = int]’:
+../src/Main.cpp:11:23:   required from here
+../src/Lista.h:15:48: error: no matching function for call to ‘Elemento<int>::Elemento(int&, int)’
+../src/Lista.h:15:48: note: candidates are:
+In file included from ../src/Lista.h:1:0,
+                 from ../src/Main.cpp:1:
+../src/Elemento.h:11:2: note: Elemento<Tipo>::Elemento(Tipo) [with Tipo = int]
+../src/Elemento.h:11:2: note:   candidate expects 1 argument, 2 provided
+../src/Elemento.h:4:7: note: Elemento<int>::Elemento(const Elemento<int>&)
+../src/Elemento.h:4:7: note:   candidate expects 1 argument, 2 provided
+make: ** [src/Main.o] Erro 1
+18:46:02 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:46:04 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+In file included from ../src/Main.cpp:1:0:
+../src/Lista.h: In instantiation of ‘void Lista<Tipo>::adicionarNoInicio(Tipo) [with Tipo = int]’:
+../src/Main.cpp:11:23:   required from here
+../src/Lista.h:15:48: error: no matching function for call to ‘Elemento<int>::Elemento(int&, int)’
+../src/Lista.h:15:48: note: candidates are:
+In file included from ../src/Lista.h:1:0,
+                 from ../src/Main.cpp:1:
+../src/Elemento.h:11:2: note: Elemento<Tipo>::Elemento(Tipo) [with Tipo = int]
+../src/Elemento.h:11:2: note:   candidate expects 1 argument, 2 provided
+../src/Elemento.h:4:7: note: Elemento<int>::Elemento(const Elemento<int>&)
+../src/Elemento.h:4:7: note:   candidate expects 1 argument, 2 provided
+make: ** [src/Main.o] Erro 1
+18:46:18 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+In file included from ../src/Main.cpp:1:0:
+../src/Lista.h: In instantiation of ‘void Lista<Tipo>::adicionarNoInicio(Tipo) [with Tipo = int]’:
+../src/Main.cpp:11:23:   required from here
+../src/Lista.h:15:48: error: no matching function for call to ‘Elemento<int>::Elemento(int&, int)’
+../src/Lista.h:15:48: note: candidates are:
+In file included from ../src/Lista.h:1:0,
+                 from ../src/Main.cpp:1:
+../src/Elemento.h:11:2: note: Elemento<Tipo>::Elemento(Tipo) [with Tipo = int]
+../src/Elemento.h:11:2: note:   candidate expects 1 argument, 2 provided
+../src/Elemento.h:4:7: note: Elemento<int>::Elemento(const Elemento<int>&)
+../src/Elemento.h:4:7: note:   candidate expects 1 argument, 2 provided
+make: ** [src/Main.o] Erro 1
+18:46:19 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:46:28 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+18:46:29 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:46:31 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:47:08 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+In file included from ../src/Main.cpp:1:0:
+../src/Lista.h: In instantiation of ‘Tipo Lista<Tipo>::removerDoInicio() [with Tipo = int]’:
+../src/Main.cpp:19:25:   required from here
+../src/Lista.h:33:16: error: invalid conversion from ‘int*’ to ‘int’ [-fpermissive]
+In file included from ../src/Lista.h:1:0,
+                 from ../src/Main.cpp:1:
+../src/Elemento.h: In instantiation of ‘Elemento<Tipo>::Elemento(Tipo) [with Tipo = int]’:
+../src/Lista.h:15:46:   required from ‘void Lista<Tipo>::adicionarNoInicio(Tipo) [with Tipo = int]’
+../src/Main.cpp:11:23:   required from here
+../src/Elemento.h:11:33: error: invalid conversion from ‘int’ to ‘int*’ [-fpermissive]
+make: ** [src/Main.o] Erro 1
+18:47:09 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:47:21 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+In file included from ../src/Main.cpp:1:0:
+../src/Lista.h: In instantiation of ‘Tipo Lista<Tipo>::removerDoInicio() [with Tipo = int]’:
+../src/Main.cpp:19:25:   required from here
+../src/Lista.h:33:16: error: invalid conversion from ‘int*’ to ‘int’ [-fpermissive]
+make: ** [src/Main.o] Erro 1
+18:47:23 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:47:40 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+18:47:41 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+18:47:47 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:48:43 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+18:48:44 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+19:09:32 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+19:09:33 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+19:10:34 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Main.o   
+Finished building target: EDComPonteiros
+ 
+19:10:35 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+19:10:38 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.

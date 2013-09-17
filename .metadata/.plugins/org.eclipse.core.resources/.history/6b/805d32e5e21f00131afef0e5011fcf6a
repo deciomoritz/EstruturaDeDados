@@ -5,10 +5,10 @@ class Elemento {
 
 public:
 
-	Tipo dado;
+	Tipo* dado;
 	Elemento* proximo;
 
-	Elemento(Tipo dado) : dado(dado){
+	Elemento(Tipo dado) : dado(&dado){
 		proximo = 0;
 	}
 

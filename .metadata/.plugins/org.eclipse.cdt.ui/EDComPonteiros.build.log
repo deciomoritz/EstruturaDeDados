@@ -1,15 +1,6 @@
-18:29:58 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+19:10:38 **** Incremental Build of configuration Debug for project EDComPonteiros ****
 make all 
-Building file: ../src/Main.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: EDComPonteiros
-Invoking: Cross G++ Linker
-g++  -o "EDComPonteiros"  ./src/Main.o   
-Finished building target: EDComPonteiros
- 
+make: Nada a ser feito para `all'.
 
-18:29:59 Build Finished (took 513ms)
+19:10:38 Build Finished (took 65ms)
 
