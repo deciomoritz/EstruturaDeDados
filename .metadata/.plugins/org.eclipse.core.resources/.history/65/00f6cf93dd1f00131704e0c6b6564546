@@ -1,0 +1,17 @@
+#include "Lista.h"
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	Lista<int> l;
+
+	l.adicionarNoInicio(2);
+
+	int a;
+	a = l.removerDoInicio().dado;
+
+	cout << a << endl;
+
+	return 0;
+}

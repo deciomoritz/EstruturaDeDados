@@ -1,0 +1,16 @@
+#include <iostream>
+
+template<typename Tipo>
+class Elemento {
+
+public:
+
+	Tipo* d;
+	Elemento* proximo;
+
+	Elemento(Tipo dado){
+
+		proximo = 0;
+	}
+
+};

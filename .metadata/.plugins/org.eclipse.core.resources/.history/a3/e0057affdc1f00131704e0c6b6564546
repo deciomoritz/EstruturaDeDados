@@ -1,0 +1,9 @@
+#include "Lista.h"
+
+int main(){
+	Lista<int> l;
+
+	l.adicionarNoInicio(2);
+
+	return 0;
+}

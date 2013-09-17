@@ -1,0 +1,35 @@
+#include "Elemento.h"
+
+template<typename Tipo>
+class Lista{
+
+	Elemento<Tipo>* cabeca;
+	int tamanho;
+
+public:
+
+	Lista() : cabeca(NULL), tamanho(0){
+	}
+
+	void adicionarNoInicio(Tipo t){
+		Elemento<Tipo>* novo = new Elemento<Tipo>(t,0);
+		tamanho++;
+		if(cabeca == 0){
+			cabeca = novo;
+			return;
+		}
+		novo->proximo = cabeca;
+		cabeca = novo;
+	}
+
+	Elemento<Tipo> removerDoInicio(){
+		if(!vazia()){
+			tamanho--;
+			cabeca = cabeca->proximo;
+		}
+	}
+
+	bool vazia(){
+		return cabeca == NULL;
+	}
+};
