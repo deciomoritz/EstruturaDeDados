@@ -1,0 +1,6 @@
+int main(){
+
+	Lancamento* t = new Lancamento();
+
+	return 0;
+}

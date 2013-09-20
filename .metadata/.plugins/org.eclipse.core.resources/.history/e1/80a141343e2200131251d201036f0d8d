@@ -1,0 +1,16 @@
+#include <iostream>
+
+template<typename Tipo>
+class Elemento {
+
+public:
+
+	Tipo* dado;
+	Elemento* proximo;
+
+	Elemento(const Tipo & d){
+		dado = &d;
+		proximo = 0;
+	}
+
+};

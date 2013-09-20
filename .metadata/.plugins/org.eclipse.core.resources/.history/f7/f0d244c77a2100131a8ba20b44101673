@@ -1,0 +1,14 @@
+#include "Lancamento.h"
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	Lancamento* t = new Lancamento("teste", 10);
+
+	cout << t->getNome() << endl;
+	cout << t->getValor() << endl;
+
+	return 0;
+}

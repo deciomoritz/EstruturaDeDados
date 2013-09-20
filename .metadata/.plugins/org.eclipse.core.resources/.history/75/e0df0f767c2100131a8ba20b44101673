@@ -1,0 +1,20 @@
+#include "Lancamento.h"
+#include "Lista.h"
+#include <iostream>
+
+using namespace std;
+
+int main1(){
+
+	Lancamento* t = new Lancamento("teste", 10);
+
+
+	//Elemento<Lancamento>* el = new Elemento<Lancamento>(*t);
+
+	Lista<Lancamento> l;
+	l.adicionar(*t);
+
+	cout << l.remover().getNome() << endl;
+
+	return 0;
+}

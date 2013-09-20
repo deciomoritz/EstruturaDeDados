@@ -8,7 +8,8 @@ public:
 	Tipo dado;
 	Elemento* proximo;
 
-	Elemento(Tipo dado) : dado(dado){
+	Elemento(Tipo d){
+		dado = d;
 		proximo = 0;
 	}
 

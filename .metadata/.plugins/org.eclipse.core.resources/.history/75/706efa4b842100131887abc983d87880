@@ -1,0 +1,33 @@
+#include "Lancamento.h"
+#include "Lista.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	Lista<Lancamento*> l;
+
+	Lista<Lancamento>* l2 = &l;
+	for (int i = 0; i < 4; i++) {
+		Lancamento* t = new Lancamento("teste", i*3+4);
+
+		//Elemento<Lancamento>* el = new Elemento<Lancamento>(*t);
+
+
+		l2->adicionar(t);
+
+		Lancamento aux = *(l.mostra(i));
+
+		cout << "teste ";
+
+		cout << aux.getValor() << endl;
+		cout << "indice: " << i << endl;
+		cout << "tamanho: " << l.getTamanho() << endl;
+
+	}
+
+
+
+	return 0;
+}
