@@ -3835,3 +3835,679 @@ Finished building target: EDComPonteiros
 19:52:00 **** Incremental Build of configuration Debug for project EDComPonteiros ****
 make all 
 make: Nada a ser feito para `all'.
+20:08:28 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:09:27 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:12:58 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:14:47 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:15:10 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:15:21 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:16:34 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:16:39 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:17:26 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+In file included from ../src/Main.cpp:2:0:
+../src/Lista.h: In instantiation of ‘Tipo Lista<Tipo>::retirarDaPosicao(int) [with Tipo = int]’:
+../src/Main.cpp:16:31:   required from here
+../src/Lista.h:69:3: error: invalid conversion from ‘Elemento<int>*’ to ‘int’ [-fpermissive]
+make: ** [src/Main.o] Erro 1
+20:17:42 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:17:45 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+20:17:46 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:19:02 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:20:19 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:21:05 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:22:10 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:22:18 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:23:39 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:24:31 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:24:45 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:25:06 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:25:15 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:25:38 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:25:57 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:26:39 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:26:47 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:28:45 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:29:21 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:30:36 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:31:09 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:32:15 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:33:04 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:33:21 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp: In function ‘int main()’:
+../src/Main.cpp:16:20: error: no match for ‘operator<<’ in ‘std::cout << l.Lista<Tipo>::limpar<int>()’
+../src/Main.cpp:16:20: note: candidates are:
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:106:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:106:7: note:   no known conversion for argument 1 from ‘void’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/4.7/ostream:115:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+/usr/include/c++/4.7/ostream:115:7: note:   no known conversion for argument 1 from ‘void’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/4.7/ostream:125:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:125:7: note:   no known conversion for argument 1 from ‘void’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/4.7/ostream:164:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:164:7: note:   no known conversion for argument 1 from ‘void’ to ‘long int’
+/usr/include/c++/4.7/ostream:168:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:168:7: note:   no known conversion for argument 1 from ‘void’ to ‘long unsigned int’
+/usr/include/c++/4.7/ostream:172:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:172:7: note:   no known conversion for argument 1 from ‘void’ to ‘bool’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/bits/ostream.tcc:93:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+/usr/include/c++/4.7/bits/ostream.tcc:93:5: note:   no known conversion for argument 1 from ‘void’ to ‘short int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:179:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:179:7: note:   no known conversion for argument 1 from ‘void’ to ‘short unsigned int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/bits/ostream.tcc:107:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+/usr/include/c++/4.7/bits/ostream.tcc:107:5: note:   no known conversion for argument 1 from ‘void’ to ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:190:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:190:7: note:   no known conversion for argument 1 from ‘void’ to ‘unsigned int’
+/usr/include/c++/4.7/ostream:199:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:199:7: note:   no known conversion for argument 1 from ‘void’ to ‘long long int’
+/usr/include/c++/4.7/ostream:203:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:203:7: note:   no known conversion for argument 1 from ‘void’ to ‘long long unsigned int’
+/usr/include/c++/4.7/ostream:218:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:218:7: note:   no known conversion for argument 1 from ‘void’ to ‘double’
+/usr/include/c++/4.7/ostream:222:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:222:7: note:   no known conversion for argument 1 from ‘void’ to ‘float’
+/usr/include/c++/4.7/ostream:230:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:230:7: note:   no known conversion for argument 1 from ‘void’ to ‘long double’
+/usr/include/c++/4.7/ostream:243:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+/usr/include/c++/4.7/ostream:243:7: note:   no known conversion for argument 1 from ‘void’ to ‘const void*’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/bits/ostream.tcc:121:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+/usr/include/c++/4.7/bits/ostream.tcc:121:5: note:   no known conversion for argument 1 from ‘void’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   mismatched types ‘const std::basic_string<_CharT, _Traits, _Alloc>’ and ‘void’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘void’)
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘char’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘char’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘signed char’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘unsigned char’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   mismatched types ‘const _CharT*’ and ‘void’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘const char*’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘const char*’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘const signed char*’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../src/Elemento.h:1,
+                 from ../src/Lista.h:1,
+                 from ../src/Main.cpp:2:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../src/Main.cpp:16:20: note:   cannot convert ‘l.Lista<Tipo>::limpar<int>()’ (type ‘void’) to type ‘const unsigned char*’
+In file included from ../src/Main.cpp:2:0:
+../src/Lista.h: In instantiation of ‘void Lista<Tipo>::limpar() [with Tipo = int]’:
+../src/Main.cpp:16:20:   required from here
+../src/Lista.h:111:4: error: type ‘int’ argument given to ‘delete’, expected pointer
+make: ** [src/Main.o] Erro 1
+20:33:39 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:33:40 **** Incremental Build of configuration Debug for project TrabalhoED ****
+make all 
+make: Nada a ser feito para `all'.
+20:33:59 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:34:04 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:34:18 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:35:22 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:35:40 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:174:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:36:31 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:37:24 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:38:18 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:38:52 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:42:00 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:175:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:43:18 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:175:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:43:50 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+../src/Trabalho05.cpp: In function ‘int main1()’:
+../src/Trabalho05.cpp:175:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 
+20:44:03 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+20:44:15 **** Incremental Build of configuration Debug for project EDComPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Trabalho05.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trabalho05.d" -MT"src/Trabalho05.d" -o "src/Trabalho05.o" "../src/Trabalho05.cpp"
+Finished building: ../src/Trabalho05.cpp
+ 
+Building target: EDComPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o   
+Finished building target: EDComPonteiros
+ 

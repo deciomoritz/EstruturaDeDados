@@ -41,8 +41,11 @@ void remTran() {
 		getchar();
 		switch (opcao) {
 		case 't':
-			while(!listaAtual->vazia())
-				delete listaAtual->remover();
+			//for (int i = 0; i <= listaAtual->getTamanho(); i++) {
+			//	delete listaAtual->mostra(i);
+			//}
+
+			listaAtual->limpar();
 
 			printf("Lista destruída!");
 			sair = true;

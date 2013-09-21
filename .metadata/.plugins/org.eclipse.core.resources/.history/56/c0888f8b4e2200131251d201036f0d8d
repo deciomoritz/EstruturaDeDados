@@ -121,7 +121,7 @@ void mostraSaldo() {
 
 	printf("\nTotal (Créditos - Débitos): \n     %.2f", tCredito - tDebito);
 }
-int main() {
+int main1() {
 
 	bool sair = false;
 

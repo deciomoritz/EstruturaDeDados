@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main1() {
+int main() {
 
 	Lista<int> l;
 
@@ -15,7 +15,7 @@ int main1() {
 	//for(int i=l.getTamanho()-1;i>=0;i--)
 		//cout << l.remover() << endl;
 	while(!l.vazia())
-		cout << l.removerDoInicio() << endl;
+		cout << l.remover() << endl;
 
 	return 0;
 }

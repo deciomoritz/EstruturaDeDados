@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main1() {
+int main() {
 
 	Lista<int> l;
 
@@ -12,10 +12,9 @@ int main1() {
 	l.adicionarNoInicio(44);
 	l.adicionarNoInicio(56);
 
-	//for(int i=l.getTamanho()-1;i>=0;i--)
-		//cout << l.remover() << endl;
-	while(!l.vazia())
-		cout << l.removerDoInicio() << endl;
+	for(int i=0;i<l.getTamanho();i++){
+		cout << l.mostra(i) << endl;
+	}
 
 	return 0;
 }

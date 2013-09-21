@@ -77,14 +77,12 @@ public:
 		if (!vazia()) {
 			Elemento<Tipo>* aux = cabeca;
 			Tipo dado = cabeca->dado;
-
 			if (tamanho == 1){
 				cabeca = 0;
-				tamanho--;
 				return dado;
 			}
-			tamanho--;
 			cabeca = cabeca->proximo;
+			tamanho--;
 			delete aux;
 			aux = 0;
 			return dado;
