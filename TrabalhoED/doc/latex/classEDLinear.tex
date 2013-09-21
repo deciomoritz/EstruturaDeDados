@@ -1,0 +1,145 @@
+\hypertarget{classEDLinear}{\section{Referência à classe Template E\-D\-Linear$<$ Tipo $>$}
+\label{classEDLinear}\index{E\-D\-Linear$<$ Tipo $>$@{E\-D\-Linear$<$ Tipo $>$}}
+}
+Diagrama de heranças da classe E\-D\-Linear$<$ Tipo $>$\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classEDLinear}
+\end{center}
+\end{figure}
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classEDLinear_af867a99c232007c2c11fd84cdbe603d3}{adicionar} (Tipo t)
+\begin{DoxyCompactList}\small\item\em Adiciona elemento na estrutura de dados. \end{DoxyCompactList}\item 
+int \hyperlink{classEDLinear_a5f36413e1900ef421dfbed681f303675}{tamanho} ()
+\begin{DoxyCompactList}\small\item\em Informa tamanho da lista. \end{DoxyCompactList}\item 
+bool \hyperlink{classEDLinear_a29e7eaef660cda7d95897917b1b1973f}{vazia} ()
+\begin{DoxyCompactList}\small\item\em Informa se lista está vazia. \end{DoxyCompactList}\item 
+bool \hyperlink{classEDLinear_a8187f3ef636dc2d82e84fa10dc27456d}{cheia} ()
+\begin{DoxyCompactList}\small\item\em Informa se lista está cheia. \end{DoxyCompactList}\item 
+\hypertarget{classEDLinear_ae57113a1f9b4b63f73aeea99deda939d}{void {\bfseries limpar} ()}\label{classEDLinear_ae57113a1f9b4b63f73aeea99deda939d}
+
+\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classEDLinear_aa8d44a073aaccf250998e7f938aed24f}{Tipo {\bfseries arr} \mbox{[}M\-A\-X\mbox{]}}\label{classEDLinear_aa8d44a073aaccf250998e7f938aed24f}
+
+\item 
+\hypertarget{classEDLinear_a1b1bb258f72504bfb71a326fead1ce14}{int {\bfseries topo}}\label{classEDLinear_a1b1bb258f72504bfb71a326fead1ce14}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrição detalhada}
+\subsubsection*{template$<$typename Tipo$>$class E\-D\-Linear$<$ Tipo $>$}
+
+
+
+Definido na linha 6 do ficheiro E\-D\-Linear.\-h.
+
+
+
+\subsection{Documentação dos métodos}
+\hypertarget{classEDLinear_af867a99c232007c2c11fd84cdbe603d3}{\index{E\-D\-Linear@{E\-D\-Linear}!adicionar@{adicionar}}
+\index{adicionar@{adicionar}!EDLinear@{E\-D\-Linear}}
+\subsubsection[{adicionar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo$>$ void {\bf E\-D\-Linear}$<$ Tipo $>$\-::adicionar (
+\begin{DoxyParamCaption}
+\item[{Tipo}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classEDLinear_af867a99c232007c2c11fd84cdbe603d3}
+
+
+Adiciona elemento na estrutura de dados. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em t} & é o elemento que será adicionado à estrutura\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+void
+\end{DoxyReturn}
+\begin{DoxyRemark}{Observações}
+Essa função não pode ser chamada com a estrutura cheia 
+\end{DoxyRemark}
+
+
+Implementa \hyperlink{classEstruturaDeDados_a66bd359407b52b76b5be611ef25cf847}{Estrutura\-De\-Dados$<$ Tipo $>$}.
+
+
+
+Definido na linha 18 do ficheiro E\-D\-Linear.\-h.
+
+\hypertarget{classEDLinear_a8187f3ef636dc2d82e84fa10dc27456d}{\index{E\-D\-Linear@{E\-D\-Linear}!cheia@{cheia}}
+\index{cheia@{cheia}!EDLinear@{E\-D\-Linear}}
+\subsubsection[{cheia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo$>$ bool {\bf E\-D\-Linear}$<$ Tipo $>$\-::cheia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classEDLinear_a8187f3ef636dc2d82e84fa10dc27456d}
+
+
+Informa se lista está cheia. 
+
+\begin{DoxyReturn}{Retorna}
+true se lista estiver cheia 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{classEstruturaDeDados_a5d7866e13c2e6129e42979093569348c}{Estrutura\-De\-Dados$<$ Tipo $>$}.
+
+
+
+Definido na linha 33 do ficheiro E\-D\-Linear.\-h.
+
+\hypertarget{classEDLinear_a5f36413e1900ef421dfbed681f303675}{\index{E\-D\-Linear@{E\-D\-Linear}!tamanho@{tamanho}}
+\index{tamanho@{tamanho}!EDLinear@{E\-D\-Linear}}
+\subsubsection[{tamanho}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo$>$ int {\bf E\-D\-Linear}$<$ Tipo $>$\-::tamanho (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classEDLinear_a5f36413e1900ef421dfbed681f303675}
+
+
+Informa tamanho da lista. 
+
+\begin{DoxyReturn}{Retorna}
+Inteiro representando o tamanho da lista 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{classEstruturaDeDados_aedcdd78aed7517cfad5ddbe374d7ce88}{Estrutura\-De\-Dados$<$ Tipo $>$}.
+
+
+
+Definido na linha 25 do ficheiro E\-D\-Linear.\-h.
+
+\hypertarget{classEDLinear_a29e7eaef660cda7d95897917b1b1973f}{\index{E\-D\-Linear@{E\-D\-Linear}!vazia@{vazia}}
+\index{vazia@{vazia}!EDLinear@{E\-D\-Linear}}
+\subsubsection[{vazia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tipo$>$ bool {\bf E\-D\-Linear}$<$ Tipo $>$\-::vazia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classEDLinear_a29e7eaef660cda7d95897917b1b1973f}
+
+
+Informa se lista está vazia. 
+
+\begin{DoxyReturn}{Retorna}
+true se lista estiver vazia 
+\end{DoxyReturn}
+
+
+Implementa \hyperlink{classEstruturaDeDados_aa45fc3c6284cba7c27b9cd128e71a079}{Estrutura\-De\-Dados$<$ Tipo $>$}.
+
+
+
+Definido na linha 29 do ficheiro E\-D\-Linear.\-h.
+
+
+
+A documentação para esta classe foi gerada a partir do seguinte ficheiro\-:\begin{DoxyCompactItemize}
+\item 
+repositorio/\-Trabalho\-E\-D/src/include/E\-D\-Linear.\-h\end{DoxyCompactItemize}

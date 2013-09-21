@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Estrutura de Dados: Código-Fonte de repositorio/TrabalhoED/src/FachadaPilha.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Estrutura de Dados
+   &#160;<span id="projectnumber">1.6</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tudo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funções</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_165964375f2f44647da907e6d4ef439a.html">repositorio</a></li><li class="navelem"><a class="el" href="dir_b1295fe86bfb6cdd62fab3ed4dcc2c05.html">TrabalhoED</a></li><li class="navelem"><a class="el" href="dir_23d3219e3daeebe34b9b2acddc2ff469.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">FachadaPilha.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;include/FachadaPilha.h&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;include/Pilha.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;include/RecebeDados.h&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;include/InformaDados.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;FachadaPilha::FachadaPilha() {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="classFachadaPilha.html#a82efe2889afb6eb2345a651eaa7206b5">chamaPilha</a>();</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classFachadaPilha.html#a82efe2889afb6eb2345a651eaa7206b5">   10</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classFachadaPilha.html#a82efe2889afb6eb2345a651eaa7206b5">FachadaPilha::chamaPilha</a>() {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classPilha.html">Pilha&lt;int&gt;</a> p;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="classPilha.html">Pilha&lt;int&gt;</a> aux;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="classInformaDados.html">InformaDados</a> in;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="classRecebeDados.html">RecebeDados</a> r;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">int</span> op;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                    <span class="stringliteral">&quot;\nDigite a operacao: \n1) empilhar\n2) desempilhar\n3) limpar\n4) mostrar\n5) sair\n&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        op = r.<a class="code" href="classRecebeDados.html#a682a075582832ea6799bf8418459ff64">pegaInt</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">switch</span> (op) {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(<span class="stringliteral">&quot;Digite o valor a ser empilhado\n&quot;</span>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordtype">int</span> a;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            a = r.<a class="code" href="classRecebeDados.html#a682a075582832ea6799bf8418459ff64">pegaInt</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">if</span> (p.<a class="code" href="classEDLinear.html#a8187f3ef636dc2d82e84fa10dc27456d">cheia</a>()) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(<span class="stringliteral">&quot;Pilha cheia&quot;</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            p.<a class="code" href="classEDLinear.html#af867a99c232007c2c11fd84cdbe603d3">adicionar</a>(a);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span> (!p.<a class="code" href="classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f">vazia</a>()) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordtype">int</span> f;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                f = p.<a class="code" href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">remover</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                in.<a class="code" href="classInformaDados.html#a906587453c1b5c5ac6105d74ae1c23ef">exibeInteiro</a>(&amp;f);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(<span class="stringliteral">&quot; foi removido.&quot;</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(<span class="stringliteral">&quot;Pilha vazia&quot;</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">while</span> (!p.<a class="code" href="classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f">vazia</a>())</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                p.<a class="code" href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">remover</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">case</span> 4:</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = p.<a class="code" href="classEDLinear.html#a5f36413e1900ef421dfbed681f303675">tamanho</a>(); i &gt; 0; i--) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="keywordtype">int</span> a;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                a = p.<a class="code" href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">remover</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(<span class="stringliteral">&quot;\nElemento: &quot;</span>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                in.<a class="code" href="classInformaDados.html#a906587453c1b5c5ac6105d74ae1c23ef">exibeInteiro</a>(&amp;a);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                in.<a class="code" href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">exibeString</a>(<span class="stringliteral">&quot;\n  Indice: &quot;</span> + i);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                in.<a class="code" href="classInformaDados.html#a906587453c1b5c5ac6105d74ae1c23ef">exibeInteiro</a>(&amp;i);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                aux.<a class="code" href="classEDLinear.html#af867a99c232007c2c11fd84cdbe603d3">adicionar</a>(a);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">while</span> (!aux.<a class="code" href="classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f">vazia</a>())</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                p.<a class="code" href="classEDLinear.html#af867a99c232007c2c11fd84cdbe603d3">adicionar</a>(aux.<a class="code" href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">remover</a>());</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">case</span> 5:</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="ttc" id="classInformaDados_html"><div class="ttname"><a href="classInformaDados.html">InformaDados</a></div><div class="ttdef"><b>Definition:</b> <a href="InformaDados_8h_source.html#l00005">InformaDados.h:5</a></div></div>
+<div class="ttc" id="classPilha_html"><div class="ttname"><a href="classPilha.html">Pilha</a></div><div class="ttdef"><b>Definition:</b> <a href="Pilha_8h_source.html#l00005">Pilha.h:5</a></div></div>
+<div class="ttc" id="classEDLinear_html_af867a99c232007c2c11fd84cdbe603d3"><div class="ttname"><a href="classEDLinear.html#af867a99c232007c2c11fd84cdbe603d3">EDLinear::adicionar</a></div><div class="ttdeci">void adicionar(Tipo t)</div><div class="ttdoc">Adiciona elemento na estrutura de dados. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00018">EDLinear.h:18</a></div></div>
+<div class="ttc" id="classEDLinear_html_a5f36413e1900ef421dfbed681f303675"><div class="ttname"><a href="classEDLinear.html#a5f36413e1900ef421dfbed681f303675">EDLinear::tamanho</a></div><div class="ttdeci">int tamanho()</div><div class="ttdoc">Informa tamanho da lista. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00025">EDLinear.h:25</a></div></div>
+<div class="ttc" id="classRecebeDados_html"><div class="ttname"><a href="classRecebeDados.html">RecebeDados</a></div><div class="ttdef"><b>Definition:</b> <a href="RecebeDados_8h_source.html#l00003">RecebeDados.h:3</a></div></div>
+<div class="ttc" id="classEDLinear_html_a8187f3ef636dc2d82e84fa10dc27456d"><div class="ttname"><a href="classEDLinear.html#a8187f3ef636dc2d82e84fa10dc27456d">EDLinear::cheia</a></div><div class="ttdeci">bool cheia()</div><div class="ttdoc">Informa se lista está cheia. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00033">EDLinear.h:33</a></div></div>
+<div class="ttc" id="classInformaDados_html_a906587453c1b5c5ac6105d74ae1c23ef"><div class="ttname"><a href="classInformaDados.html#a906587453c1b5c5ac6105d74ae1c23ef">InformaDados::exibeInteiro</a></div><div class="ttdeci">void exibeInteiro(int *i)</div><div class="ttdoc">Exibe inteiro no console. </div><div class="ttdef"><b>Definition:</b> <a href="InformaDados_8cpp_source.html#l00010">InformaDados.cpp:10</a></div></div>
+<div class="ttc" id="classFachadaPilha_html_a82efe2889afb6eb2345a651eaa7206b5"><div class="ttname"><a href="classFachadaPilha.html#a82efe2889afb6eb2345a651eaa7206b5">FachadaPilha::chamaPilha</a></div><div class="ttdeci">void chamaPilha()</div><div class="ttdoc">Serve de intermédio entre o modelo lógico da pilha e a entrada de dados. </div><div class="ttdef"><b>Definition:</b> <a href="FachadaPilha_8cpp_source.html#l00010">FachadaPilha.cpp:10</a></div></div>
+<div class="ttc" id="classRecebeDados_html_a682a075582832ea6799bf8418459ff64"><div class="ttname"><a href="classRecebeDados.html#a682a075582832ea6799bf8418459ff64">RecebeDados::pegaInt</a></div><div class="ttdeci">int pegaInt()</div><div class="ttdoc">Recebe um inteiro a partir de entrada de teclado. </div><div class="ttdef"><b>Definition:</b> <a href="RecebeDados_8cpp_source.html#l00006">RecebeDados.cpp:6</a></div></div>
+<div class="ttc" id="classEDLinear_html_a29e7eaef660cda7d95897917b1b1973f"><div class="ttname"><a href="classEDLinear.html#a29e7eaef660cda7d95897917b1b1973f">EDLinear::vazia</a></div><div class="ttdeci">bool vazia()</div><div class="ttdoc">Informa se lista está vazia. </div><div class="ttdef"><b>Definition:</b> <a href="EDLinear_8h_source.html#l00029">EDLinear.h:29</a></div></div>
+<div class="ttc" id="classInformaDados_html_aadd413615e51e0bf6d5b9b644b625b46"><div class="ttname"><a href="classInformaDados.html#aadd413615e51e0bf6d5b9b644b625b46">InformaDados::exibeString</a></div><div class="ttdeci">void exibeString(string s)</div><div class="ttdoc">Exibe string no console. </div><div class="ttdef"><b>Definition:</b> <a href="InformaDados_8cpp_source.html#l00006">InformaDados.cpp:6</a></div></div>
+<div class="ttc" id="classPilha_html_a57d9edb93b911f91b4527f7ab365ef8c"><div class="ttname"><a href="classPilha.html#a57d9edb93b911f91b4527f7ab365ef8c">Pilha::remover</a></div><div class="ttdeci">Tipo remover()</div><div class="ttdoc">Remove elemento da estrutura de dados. </div><div class="ttdef"><b>Definition:</b> <a href="Pilha_8h_source.html#l00020">Pilha.h:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Segunda, 16 de Setembro de 2013 08:37:53 para Estrutura de Dados por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>
