@@ -1,0 +1,15 @@
+#include <iostream>
+
+template<typename Tipo>
+class Elemento {
+
+	Tipo dado;
+	Elemento* proximo;
+
+public:
+	Elemento();
+
+	friend ostream & operator<<( ostream & out, const Elemento e){
+
+	}
+};

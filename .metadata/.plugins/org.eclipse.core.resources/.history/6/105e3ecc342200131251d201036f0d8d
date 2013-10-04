@@ -1,0 +1,21 @@
+#include "Lancamento.h"
+#include "Lista.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	Lista<int> l;
+
+	l.adicionar(2);
+	l.adicionar(3);
+	l.adicionar(4);
+
+
+
+
+
+
+	return 0;
+}

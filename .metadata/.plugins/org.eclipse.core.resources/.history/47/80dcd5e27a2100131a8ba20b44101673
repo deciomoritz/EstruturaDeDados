@@ -1,0 +1,17 @@
+#include "Lancamento.h"
+#include "Elemento.h"
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	Lancamento* t = new Lancamento("teste", 10);
+
+	Elemento<Lancamento>* el = new Elemento<Lancamento>();
+
+	cout << t->getNome() << endl;
+	cout << t->getValor() << endl;
+
+	return 0;
+}

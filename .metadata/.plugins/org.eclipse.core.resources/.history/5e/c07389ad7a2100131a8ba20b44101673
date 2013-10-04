@@ -1,0 +1,10 @@
+#include "Lancamento.h"
+
+int main(){
+
+	Lancamento* t = new Lancamento("teste", 10);
+
+
+
+	return 0;
+}

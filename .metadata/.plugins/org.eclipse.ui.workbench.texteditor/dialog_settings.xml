@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="300" key="DIALOG_WIDTH"/>
+<<<<<<< HEAD
 		<item value="77" key="DIALOG_Y_ORIGIN"/>
+=======
+		<item value="73" key="DIALOG_Y_ORIGIN"/>
+>>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c
 		<item value="470" key="DIALOG_HEIGHT"/>
 		<item value="490" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
@@ -13,6 +17,7 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
+<<<<<<< HEAD
 		<item value="tamanho" key="selection"/>
 		<list key="findhistory">
 			<item value="getTamanho"/>
@@ -21,6 +26,14 @@
 		<list key="replacehistory">
 			<item value="tamanho"/>
 			<item value="_tamanho"/>
+=======
+		<item value="main" key="selection"/>
+		<list key="findhistory">
+			<item value="main"/>
+			<item value="main1"/>
+		</list>
+		<list key="replacehistory">
+>>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c
 		</list>
 	</section>
 </section>

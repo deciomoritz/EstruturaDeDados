@@ -1,0 +1,31 @@
+#include <string>
+
+using namespace std;
+
+class Produto {
+
+	string nome;
+	int preco;
+
+public:
+
+	Produto();
+	Produto(string n, int p);
+	~Produto();
+	/** @brief Remove elemento da estrutura de dados
+	 *
+	 * @return Elemento retirado da estrutura
+	 *
+	 * @remarks Essa função não pode ser chamada com a estrutura vazia
+	 */
+	string getNome();
+	/** @brief Remove elemento da estrutura de dados
+	 *
+	 * @return Elemento retirado da estrutura
+	 *
+	 * @remarks Essa função não pode ser chamada com a estrutura vazia
+	 */
+	int getPreco();
+
+	bool operator <(Produto & o);
+};

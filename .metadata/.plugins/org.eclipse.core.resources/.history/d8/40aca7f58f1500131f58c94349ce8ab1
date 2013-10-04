@@ -1,0 +1,19 @@
+#include "include/FachadaPilha.h"
+#include "include/Lista.h"
+
+#include "include/Lancamento.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	Lista<Lancamento> lista;
+
+	Lancamento l1("dasdasd", 12);
+
+	return 0;
+
+}
+

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><SharedRoot><SharedProperty id="message" value="!!!Hello World!!!"/><SharedProperty id="author" value=""/><SharedProperty id="sourceDir" value="src"/><SharedProperty id="prefix" value=""/><SharedProperty id="path" value=""/><SharedProperty id="copyright" value="Your copyright notice"/></SharedRoot>
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SharedRoot><SharedProperty id="message" value="!!!Hello World!!!"/><SharedProperty id="sourceDir" value="src"/><SharedProperty id="author" value=""/><SharedProperty id="prefix" value=""/><SharedProperty id="path" value=""/><SharedProperty id="copyright" value=""/></SharedRoot>
+>>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c

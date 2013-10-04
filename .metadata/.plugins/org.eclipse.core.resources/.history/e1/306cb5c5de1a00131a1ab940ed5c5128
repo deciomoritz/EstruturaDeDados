@@ -1,0 +1,104 @@
+#include "EDLinear.h"
+#include <stdexcept>
+
+template<typename Tipo>
+class Lista: public EDLinear<Tipo> {
+
+public:
+
+	using EDLinear<Tipo>::vazia;
+	using EDLinear<Tipo>::cheia;
+	using EDLinear<Tipo>::arr;
+	using EDLinear<Tipo>::tamanho;
+	using EDLinear<Tipo>::topo;
+
+	void adicionaNaPosicao(Tipo t, int posicao) {
+		if (!cheia())
+			topo++;
+		for (int i = tamanho() - 1; i > posicao; i--)
+			arr[i] = arr[i - 1];
+		arr[posicao] = t;
+	}
+
+	void adicionaEmOrdem(Tipo t) {
+		if (!cheia())
+			for (int i = 0; i < tamanho() - 1; i++)
+				if (menor(t, arr[i])) {
+					adicionaNaPosicao(t, i);
+					topo++;
+					return;
+				}
+	}
+
+	Tipo remover() {
+		if (!vazia()) {
+			return arr[topo--];
+		}
+		throw std::runtime_error("Tentando remover elemento de pilha vazia");
+	}
+
+	Tipo retiraDaPosicao(int posicao) {
+		if (!vazia()) {
+			Tipo aux = arr[posicao];
+			for (int i = posicao; i < tamanho() - 1; i++)
+				arr[i] = arr[i + 1];
+			topo--;
+			return aux;
+		}
+		throw std::runtime_error("Tentando remover elemento de pilha vazia");
+	}
+
+	Tipo retiraEspecifico(Tipo t) {
+		for (int i = 0; i < tamanho(); i++)
+			if (igual(t, arr[i])) {
+				return retiraDaPosicao(i);
+			}
+		throw std::runtime_error("Elemento não encontrado");
+	}
+
+	int posicao(Tipo t) {
+		for (int i = 0; i < tamanho(); i++)
+			if (igual(t, arr[i]))
+				return i;
+		throw std::runtime_error("Elemento não encontrado");
+	}
+
+	bool contem(Tipo t) {
+		for (int i = 0; i < tamanho(); i++)
+			if (igual(t, arr[i]))
+				return true;
+		return false;
+	}
+
+	/** @brief Pega elemento índice i da lista. Método a ser removido
+	 *
+	 * @return Elemento retirado da estrutura
+	 *
+	 * @remarks Essa função não pode ser chamada com a estrutura vazia
+	 */
+	Tipo mostrar(int i) {
+		if(!vazia())
+			return arr[i];
+		throw std::runtime_error("Lista vazia");
+	}
+
+	/** @brief Pega índice do último elemento da estrutura
+	 *
+	 * @return int
+	 */
+	int verUltimo() {
+		return topo;
+	}
+
+	bool igual(Tipo t1, Tipo t2) {
+		return t1 == t2;
+	}
+
+	bool maior(Tipo t1, Tipo t2) {
+		return t1 > t2;
+	}
+
+	bool menor(Tipo t1, Tipo t2) {
+		return t1 < t2;
+	}
+};

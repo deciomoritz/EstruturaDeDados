@@ -1,0 +1,43 @@
+#include "include/Lancamento.h"
+#include <cstring>
+#include <iostream>
+
+Lancamento::Lancamento() {
+	valor = 0;
+	nome = 0;
+}
+
+Lancamento::Lancamento(char *n, double v) {
+	nome = n;
+	valor = v;
+}
+
+Lancamento::~Lancamento() {
+
+}
+
+double Lancamento::getValor(){
+	return valor;
+}
+
+char* Lancamento::getNome(){
+	return nome;
+}
+
+Lancamento::Lancamento(const Lancamento& outro) {
+	std::cout << "teste";
+
+	valor = outro.valor;
+
+	int quant;
+	quant = strlen(outro.nome);
+	std::cout << outro.nome << "teste2";
+
+	char c[quant];
+
+	strcpy(c, outro.nome);
+	std::cout << c << "teste3";
+
+	nome = c;
+	std::cout << nome << "teste3";
+}

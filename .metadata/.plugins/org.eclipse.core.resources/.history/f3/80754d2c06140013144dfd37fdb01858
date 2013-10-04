@@ -1,0 +1,16 @@
+#include "include/Lancamento.h"
+
+Lancamento::Lancamento() {
+	valor = 0;
+}
+
+Lancamento::Lancamento(char *n, double v) {
+	nome = n;
+	valor = v;
+}
+
+Lancamento::~Lancamento() {
+
+}
+
+

@@ -1,0 +1,7 @@
+#include "Lista.h"
+
+int main(){
+	Lista<int> l;
+
+	return 0;
+}

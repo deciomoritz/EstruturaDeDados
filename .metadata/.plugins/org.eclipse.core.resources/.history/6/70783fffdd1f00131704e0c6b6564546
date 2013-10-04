@@ -1,0 +1,19 @@
+#include "Lista.h"
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	Lista<int> l;
+
+	cout << l.vazia() << endl;
+
+	l.adicionarNoInicio(2);
+
+	int a;
+	a = l.removerDoInicio();
+
+	cout << a << endl;
+
+	return 0;
+}

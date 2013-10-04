@@ -1,0 +1,2 @@
+class ListaChar : public Lista<char>{
+};

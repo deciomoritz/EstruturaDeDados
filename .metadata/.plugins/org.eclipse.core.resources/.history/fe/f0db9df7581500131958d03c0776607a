@@ -1,0 +1,17 @@
+/*
+ * ListaContabil.h
+ *
+ *  Created on: 04/09/2013
+ *      Author: decio
+ */
+
+#ifndef LISTACONTABIL_H_
+#define LISTACONTABIL_H_
+
+class ListaContabil {
+public:
+	ListaContabil();
+	virtual ~ListaContabil();
+};
+
+#endif /* LISTACONTABIL_H_ */

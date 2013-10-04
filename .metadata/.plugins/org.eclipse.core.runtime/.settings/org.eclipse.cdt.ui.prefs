@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
 eclipse.preferences.version=1
+=======
+MemberFilterActionGroup.COutlineViewer.1=true
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
+eclipse.preferences.version=1
+sourceHoverBackgroundColor=255,255,255
+>>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

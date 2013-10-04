@@ -1,0 +1,14 @@
+/*
+ * ListaChar.h
+ *
+ *  Created on: 11/09/2013
+ *      Author: decio
+ */
+
+#ifndef LISTACHAR_H_
+#define LISTACHAR_H_
+
+class ListaChar {
+};
+
+#endif /* LISTACHAR_H_ */

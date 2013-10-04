@@ -1,0 +1,19 @@
+#include "Lista.h"
+
+class ListaChar : public Lista<char*>{
+
+
+
+
+	bool igual(char* t1, char* t2) {
+		return t1 == t2;
+	}
+
+	bool maior(Tipo t1, Tipo t2) {
+		return t1 > t2;
+	}
+
+	bool menor(Tipo t1, Tipo t2) {
+		return t1 < t2;
+	}
+};

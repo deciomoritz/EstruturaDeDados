@@ -1,0 +1,20 @@
+#include "Lancamento.h"
+#include "Lista.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	Lista<int> l;
+
+
+	l.adicionarNoInicio(2);
+	l.adicionarNoInicio(3);
+	l.adicionarNoInicio(4);
+
+	while(!l.vazia())
+		cout << l.removerDoInicio();
+
+	return 0;
+}

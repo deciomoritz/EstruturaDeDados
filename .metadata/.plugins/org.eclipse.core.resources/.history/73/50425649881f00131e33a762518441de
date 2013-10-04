@@ -1,0 +1,7 @@
+#include "Elemento.h"
+
+Elemento::Elemento() {
+	// TODO Auto-generated constructor stub
+
+}
+

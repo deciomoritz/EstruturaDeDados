@@ -1,0 +1,31 @@
+#include "include/FachadaPilha.h"
+#include "include/Lista.h"
+
+#include "include/Lancamento.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	char c[7] = "batata";
+
+	Lancamento l(c, 10);
+
+	char d[8] = "abacaxi";
+
+	l(d, 20);
+
+	Lista<Lancamento> lista;
+
+	lista.adicionar(l);
+	lista.adicionar(l);
+
+
+	cout << lista.remover().getNome() << endl;
+	cout << lista.remover().getNome() << endl;
+
+	return 0;
+
+}

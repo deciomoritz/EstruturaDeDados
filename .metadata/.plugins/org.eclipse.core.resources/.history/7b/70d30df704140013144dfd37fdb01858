@@ -1,0 +1,5 @@
+class Lancamento {
+public:
+	Lancamento();
+	virtual ~Lancamento();
+};

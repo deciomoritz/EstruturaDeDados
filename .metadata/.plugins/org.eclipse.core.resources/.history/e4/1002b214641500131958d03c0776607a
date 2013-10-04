@@ -1,0 +1,36 @@
+#include "include/Lancamento.h"
+#include <cstring>
+
+Lancamento::Lancamento() {
+	valor = 0;
+	nome = 0;
+}
+
+Lancamento::Lancamento(char *n, double v) {
+	nome = new char;
+	valor = v;
+}
+
+Lancamento::~Lancamento() {
+	delete [] nome;
+}
+
+double Lancamento::getValor(){
+	return valor;
+}
+
+char* Lancamento::getNome(){
+	return nome;
+}
+
+Lancamento::Lancamento(const Lancamento& outro) {
+	valor = outro.valor;
+
+	int quant;
+	quant = strlen(outro.nome);
+
+	char c[quant];
+	c = *outro.nome;
+
+	nome = c;
+}
