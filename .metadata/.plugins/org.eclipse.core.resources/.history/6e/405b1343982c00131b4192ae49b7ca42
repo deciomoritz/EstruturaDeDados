@@ -1,0 +1,18 @@
+#include "Cidade.h"
+
+class Parada {
+
+	Cidade cidade;
+	std::string horario;
+
+public:
+	Parada();
+	virtual ~Parada();
+
+	Parada(Cidade ci, std::string ho);
+
+	Parada operator !=(Parada & p){
+		return cidade.getDescricao() != p.cidade.getDescricao();
+	}
+};
+

@@ -1,0 +1,11 @@
+#include "include/Linha.h"
+
+Linha::Linha() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Linha::~Linha() {
+	// TODO Auto-generated destructor stub
+}
+

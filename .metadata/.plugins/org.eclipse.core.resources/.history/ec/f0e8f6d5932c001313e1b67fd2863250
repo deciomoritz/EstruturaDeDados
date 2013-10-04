@@ -1,0 +1,14 @@
+#include "ListaCircularDuplamenteEncadeada.h"
+
+class Linha {
+
+	ListaCircularDuplamenteEncadeada linha;
+
+public:
+	Linha();
+	virtual ~Linha();
+
+
+
+
+};

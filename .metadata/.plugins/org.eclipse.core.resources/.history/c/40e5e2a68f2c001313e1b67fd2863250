@@ -1,0 +1,29 @@
+#include <iostream>
+#include "include/ListaCircularDuplamenteEncadeada.h"
+
+using namespace std;
+
+int main() {
+
+	ListaCircularDuplamenteEncadeada<int> teste;
+
+	teste.adicionar(1);
+	teste.adicionar(2);
+	teste.adicionar(3);
+	teste.adicionarNoInicio(0);
+	teste.adicionarNaPosicao(4, 0);
+	teste.adicionarNaPosicao(6, 5);
+	teste.adicionarNaPosicao(7, 4);
+
+	int x = teste.getTamanho();
+	for (int i = 0; i < x; i++) {
+		cout << i << " - " << teste.mostra(i) << endl;
+	}
+
+	for (int i = 0; i < 10; i++){
+
+		cout << teste.getElemento(0)->proximo->dado;
+	}
+
+	return 0;
+}

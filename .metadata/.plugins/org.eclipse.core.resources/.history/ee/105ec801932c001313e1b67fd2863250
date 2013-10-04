@@ -1,0 +1,17 @@
+/*
+ * Cidade.h
+ *
+ *  Created on: 03/10/2013
+ *      Author: decio
+ */
+
+#ifndef CIDADE_H_
+#define CIDADE_H_
+
+class Cidade {
+public:
+	Cidade();
+	virtual ~Cidade();
+};
+
+#endif /* CIDADE_H_ */

@@ -1,0 +1,17 @@
+/*
+ * Parada.h
+ *
+ *  Created on: 03/10/2013
+ *      Author: decio
+ */
+
+#ifndef PARADA_H_
+#define PARADA_H_
+
+class Parada {
+public:
+	Parada();
+	virtual ~Parada();
+};
+
+#endif /* PARADA_H_ */

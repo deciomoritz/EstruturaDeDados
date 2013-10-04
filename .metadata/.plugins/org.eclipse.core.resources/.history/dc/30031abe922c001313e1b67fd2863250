@@ -1,0 +1,18 @@
+/*
+ * Linha.cpp
+ *
+ *  Created on: 03/10/2013
+ *      Author: decio
+ */
+
+#include "Linha.h"
+
+Linha::Linha() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Linha::~Linha() {
+	// TODO Auto-generated destructor stub
+}
+

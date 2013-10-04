@@ -1,0 +1,18 @@
+/*
+ * Parada.cpp
+ *
+ *  Created on: 03/10/2013
+ *      Author: decio
+ */
+
+#include "Parada.h"
+
+Parada::Parada() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Parada::~Parada() {
+	// TODO Auto-generated destructor stub
+}
+

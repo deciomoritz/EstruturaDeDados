@@ -1,0 +1,15 @@
+#include "ListaCircularDuplamenteEncadeada.h"
+#include "Parada.h"
+
+class Linha {
+
+	ListaCircularDuplamenteEncadeada<Parada> linha;
+
+public:
+	Linha();
+	virtual ~Linha();
+
+
+
+
+};

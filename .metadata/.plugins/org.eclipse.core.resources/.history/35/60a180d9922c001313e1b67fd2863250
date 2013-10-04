@@ -1,0 +1,7 @@
+class Linha {
+public:
+	Linha();
+	virtual ~Linha();
+
+
+};

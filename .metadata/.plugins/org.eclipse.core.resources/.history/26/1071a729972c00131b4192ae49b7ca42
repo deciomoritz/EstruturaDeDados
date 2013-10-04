@@ -1,0 +1,16 @@
+#include "include/Cidade.h"
+
+Cidade::Cidade() {
+}
+
+Cidade::~Cidade() {
+}
+
+Cidade::Cidade(std::string d){
+	descricao = d;
+}
+
+Cidade::std::string getDescricao(){
+
+}
+

@@ -1,0 +1,17 @@
+/*
+ * Parada.cpp
+ *
+ *  Created on: 03/10/2013
+ *      Author: decio
+ */
+
+#include "Parada.h"
+
+Parada::Parada() {}
+
+Parada::~Parada() {}
+
+Parada::Parada(Cidade ci, std::string ho){
+
+}
+

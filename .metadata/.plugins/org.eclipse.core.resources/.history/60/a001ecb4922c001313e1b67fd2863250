@@ -1,0 +1,17 @@
+/*
+ * Linha.h
+ *
+ *  Created on: 03/10/2013
+ *      Author: decio
+ */
+
+#ifndef LINHA_H_
+#define LINHA_H_
+
+class Linha {
+public:
+	Linha();
+	virtual ~Linha();
+};
+
+#endif /* LINHA_H_ */

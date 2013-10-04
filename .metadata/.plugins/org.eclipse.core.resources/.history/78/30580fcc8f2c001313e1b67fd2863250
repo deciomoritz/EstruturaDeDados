@@ -1,0 +1,139 @@
+#include "ElementoDuploDuplo.h"
+#include <stdexcept>
+#include <string>
+
+template<typename Tipo>
+class ListaCircularDuplamenteEncadeada {
+    ElementoDuplo<Tipo>* cabeca;
+    int tamanho;
+
+public:
+
+    ListaCircularDuplamenteEncadeada() : cabeca(new ElementoDuplo<Tipo>(0)), tamanho(0) {
+        cabeca->proximo = cabeca;
+        cabeca->anterior = cabeca;
+    }
+
+    void adicionarNoInicio(Tipo t) {
+        ElementoDuplo<Tipo>* novo;
+        novo = new ElementoDuplo<Tipo>(t);
+
+        if (novo == 0)
+            throw std::runtime_error("Impossível adicionar nova transação! Erro de lista cheia!");
+        tamanho++;
+
+        novo->proximo = cabeca->proximo;
+        novo->anterior = cabeca;
+        cabeca->proximo = novo;
+        novo->proximo->anterior = novo;
+    }
+
+    void adicionar(Tipo t) {
+        ElementoDuplo<Tipo> *novo = new ElementoDuplo<Tipo>(t);
+        if (novo == 0)
+            throw std::runtime_error("Deu merda");
+        novo->anterior = cabeca->anterior;
+        novo->anterior->proximo = novo;
+        novo->proximo = cabeca;
+        cabeca->anterior = novo;
+        tamanho++;
+    }
+
+    void adicionarNaPosicao(Tipo t, int pos) {
+        if (pos < 0 || pos > tamanho)
+            throw std::runtime_error("Deu merda");
+
+        if (pos == 0) {
+            adicionarNoInicio(t);
+            return;
+        }
+        ElementoDuplo<Tipo> *novo = new ElementoDuplo<Tipo>(t);
+        ElementoDuplo<Tipo> *aux;
+
+        if (novo == 0)
+            throw std::runtime_error("Deu merda");
+        aux = cabeca->proximo;
+        for (int i = 1; i < pos; i++)
+            aux = aux->proximo;
+        novo->proximo = aux->proximo;
+        novo->proximo->anterior = novo;
+        novo->anterior = aux;
+        aux->proximo = novo;
+        tamanho++;
+    }
+
+    Tipo removerDaPosicao(int pos) {
+        if (pos >= tamanho)
+            throw std::runtime_error("Posição inválida");
+
+        ElementoDuplo<Tipo> *aux, *eliminar;
+        Tipo retorno;
+
+        if (pos == 0)
+            return removerDoInicio();
+        aux = cabeca->proximo;
+        for (int i = 0; i < pos; i++)
+            aux = aux->proximo;
+        eliminar = aux;
+        eliminar->proximo->anterior = eliminar->anterior;
+        eliminar->anterior->proximo = eliminar->proximo;
+        retorno = aux->dado;
+        tamanho--;
+        delete eliminar;
+        return retorno;
+    }
+
+    Tipo removerDoInicio() {
+        if (!vazia()) {
+            ElementoDuplo<Tipo>* aux = cabeca->proximo;
+            Tipo dado = aux->dado;
+            cabeca->proximo = aux->proximo;
+            aux->proximo->anterior = cabeca;
+            delete aux;
+            tamanho--;
+            return dado;
+        }
+        throw std::runtime_error("Tentando remover ElementoDuplo de lista vazia");
+    }
+
+    Tipo mostra(int i) {
+        if (i < 0 || i >= tamanho)
+            throw -1;
+
+        if (i == 0)
+            return cabeca->proximo->dado;
+
+        ElementoDuplo<Tipo> *aux;
+        aux = cabeca->proximo;
+        for (int j = 0; j < i; j++)
+            aux = aux->proximo;
+        
+        return aux->dado;
+    }
+
+    void limpar() {
+        while (!vazia())
+            remover();
+    }
+
+    int getTamanho() {
+        return tamanho;
+    }
+
+    Tipo remover() {
+         if (!vazia()) {
+            ElementoDuplo<Tipo>* aux = cabeca->anterior;
+            Tipo dado = aux->dado;
+            cabeca->anterior = aux->anterior;
+            aux->anterior->proximo = cabeca;
+            delete aux;
+            tamanho--;
+            return dado;
+        }
+        throw std::runtime_error("Tentando remover ElementoDuplo de lista vazia");
+    }
+
+    bool vazia() {
+        return tamanho == 0;
+    }
+};

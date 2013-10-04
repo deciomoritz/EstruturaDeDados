@@ -1,0 +1,16 @@
+#include <iostream>
+
+template<typename Tipo>
+class ElementoDuplo {
+
+	Tipo dado;
+	ElementoDuplo* proximo;
+	ElementoDuplo* anterior;
+
+	ElementoDuplo(Tipo d) {
+		dado = d;
+		proximo = 0;
+		anterior = 0;
+	}
+
+};

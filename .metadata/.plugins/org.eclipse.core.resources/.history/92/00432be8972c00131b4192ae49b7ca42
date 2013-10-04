@@ -1,0 +1,16 @@
+#include "include/Parada.h"
+
+Parada::Parada() {}
+
+Parada::~Parada() {}
+
+Parada::Parada(Cidade ci, std::string ho){
+	cidade = ci;
+	horario = ho;
+
+}
+
+Parada::operator!= (Parada & p){
+
+	return false;
+}

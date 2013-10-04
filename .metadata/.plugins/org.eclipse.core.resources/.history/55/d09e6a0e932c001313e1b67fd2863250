@@ -1,0 +1,10 @@
+#include <string>
+
+class Cidade {
+public:
+	Cidade();
+	virtual ~Cidade();
+
+	string descricao;
+};
+

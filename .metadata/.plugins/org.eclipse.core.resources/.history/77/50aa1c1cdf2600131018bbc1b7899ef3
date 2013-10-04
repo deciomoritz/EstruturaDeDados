@@ -1,0 +1,14 @@
+#include <iostream>
+
+template<typename Tipo>
+class ElementoDuplo<Tipoo> : public Elemento<Tipo> {
+
+public:
+
+	ElementoDuplo* anterior;
+
+	ElementoDuplo(Tipo d) {
+		anterior = 0;
+	}
+
+};

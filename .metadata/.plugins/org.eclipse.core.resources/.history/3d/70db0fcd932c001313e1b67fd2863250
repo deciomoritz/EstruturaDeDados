@@ -1,0 +1,14 @@
+#include "include/Cidade.h"
+
+class Parada {
+
+	Cidade c;
+	std::string horario;
+
+public:
+	Parada();
+	virtual ~Parada();
+
+	Parada(Cidade ci, std::string ho);
+};
+

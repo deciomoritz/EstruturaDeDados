@@ -1,0 +1,15 @@
+23:31:16 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Parada.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parada.d" -MT"src/Parada.d" -o "src/Parada.o" "../src/Parada.cpp"
+Finished building: ../src/Parada.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+
+23:31:17 Build Finished (took 531ms)
+

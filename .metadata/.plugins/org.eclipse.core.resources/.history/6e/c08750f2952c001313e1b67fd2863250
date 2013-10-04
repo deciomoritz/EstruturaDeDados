@@ -1,0 +1,27 @@
+#include "ListaCircularDuplamenteEncadeada.h"
+#include "Parada.h"
+
+class Linha : ListaCircularDuplamenteEncadeada<Parada>{
+
+public:
+	Linha();
+	virtual ~Linha();
+
+	void adicionarParada(std::string horario, Cidade c){
+		Parada p(c, horario);
+		adicionar(p);
+	}
+
+	Parada proxima(Parada p){
+		ElementoDuplo<Parada> aux = getElemento(0);
+
+		while(p != aux){
+			aux = aux.proximo;
+		}
+	}
+
+	Parada anterior(Parada p){
+
+	}
+
+};

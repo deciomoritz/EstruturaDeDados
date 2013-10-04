@@ -1,0 +1,10 @@
+#include "Parada.h"
+
+Parada::Parada() {}
+
+Parada::~Parada() {}
+
+Parada::Parada(Cidade ci, std::string ho){
+
+}
+
