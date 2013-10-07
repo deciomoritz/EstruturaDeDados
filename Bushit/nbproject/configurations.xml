@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>Cidade.cpp</itemPath>
+      <itemPath>InformaDados.cpp</itemPath>
+      <itemPath>Linha.cpp</itemPath>
+      <itemPath>Parada.cpp</itemPath>
+      <itemPath>RecebeDados.cpp</itemPath>
+      <itemPath>include/Tela.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="include" displayName="include" projectFiles="true">
+      <itemPath>include/Cidade.h</itemPath>
+      <itemPath>include/EDLinear.h</itemPath>
+      <itemPath>include/Elemento.h</itemPath>
+      <itemPath>include/ElementoDuplo.h</itemPath>
+      <itemPath>include/EstruturaDeDados.h</itemPath>
+      <itemPath>include/Hora.h</itemPath>
+      <itemPath>include/Horario.h</itemPath>
+      <itemPath>include/InformaDados.h</itemPath>
+      <itemPath>include/Linha.h</itemPath>
+      <itemPath>include/Lista.h</itemPath>
+      <itemPath>include/ListaArray.h</itemPath>
+      <itemPath>include/ListaCircularDuplamenteEncadeada.h</itemPath>
+      <itemPath>include/Minuto.h</itemPath>
+      <itemPath>include/Parada.h</itemPath>
+      <itemPath>include/RecebeDados.h</itemPath>
+      <itemPath>include/Segundo.h</itemPath>
+      <itemPath>include/Tempo.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Cidade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InformaDados.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Linha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Parada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RecebeDados.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/Cidade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/EDLinear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Elemento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ElementoDuplo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/EstruturaDeDados.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Hora.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Horario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/InformaDados.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Linha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ListaArray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ListaCircularDuplamenteEncadeada.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/Minuto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Parada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RecebeDados.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Segundo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Tela.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/Tempo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Cidade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InformaDados.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Linha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Parada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RecebeDados.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/Cidade.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/EDLinear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Elemento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ElementoDuplo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/EstruturaDeDados.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Hora.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Horario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/InformaDados.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Linha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ListaArray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ListaCircularDuplamenteEncadeada.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/Minuto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Parada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RecebeDados.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Segundo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Tela.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/Tempo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
