@@ -5,12 +5,9 @@
 #include "Horario.h"
 
 class Linha : public ListaCircularDuplamenteEncadeada<Parada> {
-
 public:
-
     Linha();
     virtual ~Linha();
-
 
     /** @brief mostra a proxima Parada da Linha
      *

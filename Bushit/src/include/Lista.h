@@ -3,9 +3,7 @@
 #include <string>
 
 template<typename Tipo>
-
 class Lista {
-
     Elemento<Tipo>* cabeca;
     int _tamanho;
 

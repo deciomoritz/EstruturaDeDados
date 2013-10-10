@@ -18,15 +18,9 @@ public:
      *
      * @remarks int temp eh um valor no intervalo [0,23]
      */
-    Hora(int temp) {
-        if (temp >= 24 || temp < 0)
-            throw std::runtime_error("Hora fora do limite");
-        tmp = temp;
-        un = 'h';
-    }
+    Hora(int temp);
 
-    Hora() {
-    }
+    Hora();
 };
 
 

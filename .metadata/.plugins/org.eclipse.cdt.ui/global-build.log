@@ -9457,3 +9457,111 @@ make: Nada a ser feito para `all'.
 19:23:43 **** Incremental Build of configuration Debug for project EDPonteiros ****
 make all 
 make: Nada a ser feito para `all'.
+09:51:25 **** Clean-only build of configuration Debug for project Bushit ****
+make clean 
+rm -rf  ./src/Aplicacao.o ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Parada.o ./src/RecebeDados.o ./src/main.o  ./src/Aplicacao.d ./src/Cidade.d ./src/InformaDados.d ./src/Linha.d ./src/Parada.d ./src/RecebeDados.d ./src/main.d  Bushit
+ 
+09:51:26 **** Build of configuration Debug for project Bushit ****
+make all 
+Building file: ../src/Aplicacao.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aplicacao.d" -MT"src/Aplicacao.d" -o "src/Aplicacao.o" "../src/Aplicacao.cpp"
+../src/Aplicacao.cpp: Na função ‘void remover()’:
+../src/Aplicacao.cpp:62:3: aviso: name lookup of ‘i’ changed [habilitado por padrão]
+../src/Aplicacao.cpp:12:14: aviso:   matches this ‘i’ under ISO standard rules [habilitado por padrão]
+../src/Aplicacao.cpp:55:12: aviso:   matches this ‘i’ under old rules [habilitado por padrão]
+Finished building: ../src/Aplicacao.cpp
+ 
+Building file: ../src/Cidade.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cidade.d" -MT"src/Cidade.d" -o "src/Cidade.o" "../src/Cidade.cpp"
+Finished building: ../src/Cidade.cpp
+ 
+Building file: ../src/Hora.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hora.d" -MT"src/Hora.d" -o "src/Hora.o" "../src/Hora.cpp"
+Finished building: ../src/Hora.cpp
+ 
+Building file: ../src/Horario.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Horario.d" -MT"src/Horario.d" -o "src/Horario.o" "../src/Horario.cpp"
+Finished building: ../src/Horario.cpp
+ 
+Building file: ../src/InformaDados.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InformaDados.d" -MT"src/InformaDados.d" -o "src/InformaDados.o" "../src/InformaDados.cpp"
+Finished building: ../src/InformaDados.cpp
+ 
+Building file: ../src/Linha.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/Linha.h:3:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: No construtor ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+../src/Linha.cpp:3:14:   instanciado a partir daqui
+../src/include/ListaCircularDuplamenteEncadeada.h:9:26: aviso: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+Finished building: ../src/Linha.cpp
+../src/include/ListaCircularDuplamenteEncadeada.h:8:9: aviso:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/include/ListaCircularDuplamenteEncadeada.h:17:5: aviso:   when initialized here [-Wreorder]
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Minuto.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Minuto.d" -MT"src/Minuto.d" -o "src/Minuto.o" "../src/Minuto.cpp"
+Finished building: ../src/Minuto.cpp
+ 
+Building file: ../src/Parada.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parada.d" -MT"src/Parada.d" -o "src/Parada.o" "../src/Parada.cpp"
+Finished building: ../src/Parada.cpp
+ 
+Building file: ../src/RecebeDados.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RecebeDados.d" -MT"src/RecebeDados.d" -o "src/RecebeDados.o" "../src/RecebeDados.cpp"
+Finished building: ../src/RecebeDados.cpp
+ 
+Building file: ../src/Segundo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Segundo.d" -MT"src/Segundo.d" -o "src/Segundo.o" "../src/Segundo.cpp"
+Finished building: ../src/Segundo.cpp
+ 
+Building file: ../src/Tempo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tempo.d" -MT"src/Tempo.d" -o "src/Tempo.o" "../src/Tempo.cpp"
+Finished building: ../src/Tempo.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Bushit
+Invoking: GCC C++ Linker
+g++  -o "Bushit"  ./src/Aplicacao.o ./src/Cidade.o ./src/Hora.o ./src/Horario.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Minuto.o ./src/Parada.o ./src/RecebeDados.o ./src/Segundo.o ./src/Tempo.o ./src/main.o   
+./src/Main.o: In function `main':
+/home/decio/Documentos/estudos/projetosEclipse/Bushit/Debug/../src/Main.cpp:6: multiple definition of `main'
+./src/Aplicacao.o:/home/decio/Documentos/estudos/projetosEclipse/Bushit/Debug/../src/Aplicacao.cpp:17: first defined here
+./src/main.o: In function `main':
+/home/decio/Documentos/estudos/projetosEclipse/Bushit/Debug/../src/main.cpp:9: multiple definition of `main'
+./src/Aplicacao.o:/home/decio/Documentos/estudos/projetosEclipse/Bushit/Debug/../src/Aplicacao.cpp:17: first defined here
+collect2: ld returned 1 exit status
+make: ** [Bushit] Erro 1
+09:52:12 **** Incremental Build of configuration Debug for project Bushit ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Bushit
+Invoking: GCC C++ Linker
+g++  -o "Bushit"  ./src/Aplicacao.o ./src/Cidade.o ./src/Hora.o ./src/Horario.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Minuto.o ./src/Parada.o ./src/RecebeDados.o ./src/Segundo.o ./src/Tempo.o   
+Finished building target: Bushit
+ 
+09:52:19 **** Incremental Build of configuration Debug for project Bushit ****
+make all 
+make: Nada a ser feito para `all'.
