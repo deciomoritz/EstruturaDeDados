@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=decio
-useridperkey=decio.Local\=decio;
-=======
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=6de601edd08ceb6ccb10634e6fc3c02706d1598c
 activeuserprofiles=Team;cerberus;decio
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=decio
-useridperkey=cerberus.Local\=decio;
->>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c
+useridperkey=cerberus.Local\=decio;decio.Local\=decio;

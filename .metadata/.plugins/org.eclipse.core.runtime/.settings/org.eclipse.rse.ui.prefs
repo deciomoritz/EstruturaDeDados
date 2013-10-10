@@ -1,6 +1,5 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=6de601edd08ceb6ccb10634e6fc3c02706d1598c
 eclipse.preferences.version=1
-<<<<<<< HEAD
-org.eclipse.rse.preferences.order.connections=decio.Local
-=======
-org.eclipse.rse.preferences.order.connections=cerberus.Local
->>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c
+org.eclipse.rse.preferences.order.connections=cerberus.Local;decio.Local

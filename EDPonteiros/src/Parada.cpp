@@ -17,5 +17,5 @@ bool Parada::operator !=(Parada & p) {
 }
 
 std::string Parada::toString(){
-	return "Nome: " + cidade.getNome() + "\nDescricao: " + cidade.getDescricao();
+	return "Nome: " + cidade.getNome() + "\nHorário de chegada: " + horario + "\nDescricao da cidade: " + cidade.getDescricao();
 }

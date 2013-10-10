@@ -15,7 +15,7 @@ int main() {
 	Parada p2(c2, "7:30");
 	l.adicionar(p2);
 
-	cout << l.proxima(p1).toString() << endl;
+	cout << l.proxima(p1).toString() << endl << endl;
 
 	cout << l.anterior(p2).toString() << endl;
 

@@ -9155,3 +9155,305 @@ g++  -o "EDComPonteiros"  ./src/Lancamento.o ./src/Main.o ./src/Trabalho05.o
 Finished building target: EDComPonteiros
 >>>>>>> 6de601edd08ceb6ccb10634e6fc3c02706d1598c
  
+17:58:35 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Cidade.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cidade.d" -MT"src/Cidade.d" -o "src/Cidade.o" "../src/Cidade.cpp"
+Finished building: ../src/Cidade.cpp
+ 
+Building file: ../src/Linha.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+../src/Linha.cpp:3:14:   required from here
+Finished building: ../src/Linha.cpp
+../src/include/ListaCircularDuplamenteEncadeada.h:10:26: warning: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+ 
+../src/include/ListaCircularDuplamenteEncadeada.h:9:6: warning:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/include/ListaCircularDuplamenteEncadeada.h:14:5: warning:   when initialized here [-Wreorder]
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Parada.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parada.d" -MT"src/Parada.d" -o "src/Parada.o" "../src/Parada.cpp"
+Finished building: ../src/Parada.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+18:05:30 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:06:38 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Parada.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parada.d" -MT"src/Parada.d" -o "src/Parada.o" "../src/Parada.cpp"
+Finished building: ../src/Parada.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+18:06:53 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+18:52:46 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Cidade.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cidade.d" -MT"src/Cidade.d" -o "src/Cidade.o" "../src/Cidade.cpp"
+Finished building: ../src/Cidade.cpp
+ 
+Building file: ../src/Linha.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+Finished building: ../src/Linha.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/Linha.cpp:3:14:   required from here
+../src/include/ListaCircularDuplamenteEncadeada.h:10:26: warning: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:9:6: warning:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:14:5: warning:   when initialized here [-Wreorder]
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Parada.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parada.d" -MT"src/Parada.d" -o "src/Parada.o" "../src/Parada.cpp"
+Finished building: ../src/Parada.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+18:52:53 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+18:53:27 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Linha.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:38: error: expected class-name before ‘{’ token
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+../src/Linha.cpp:3:14:   required from here
+../src/include/ListaCircularDuplamenteEncadeada.h:10:26: warning: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:9:6: warning:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:14:5: warning:   when initialized here [-Wreorder]
+make: ** [src/Linha.o] Erro 1
+18:53:39 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Linha.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:38: error: expected template-name before ‘<’ token
+../src/include/ElementoDuplo.h:4:38: error: expected ‘{’ before ‘<’ token
+../src/include/ElementoDuplo.h:4:38: error: expected unqualified-id before ‘<’ token
+In file included from ../src/Linha.cpp:1:0:
+../src/include/Linha.h: In member function ‘Parada Linha::proxima(Parada)’:
+../src/include/Linha.h:19:18: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/Linha.cpp:1:0:
+../src/include/Linha.h:20:13: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/Linha.cpp:1:0:
+../src/include/Linha.h:23:13: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/Linha.cpp:1:0:
+../src/include/Linha.h: In member function ‘Parada Linha::anterior(Parada)’:
+../src/include/Linha.h:30:18: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/Linha.cpp:1:0:
+../src/include/Linha.h:31:13: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/Linha.cpp:1:0:
+../src/include/Linha.h:34:13: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘void ListaCircularDuplamenteEncadeada<Tipo>::adicionar(Tipo) [with Tipo = Parada]’:
+../src/include/Linha.h:12:3:   required from here
+../src/include/ListaCircularDuplamenteEncadeada.h:34:62: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:37:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:37:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:38:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:39:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:40:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+../src/Linha.cpp:3:14:   required from here
+../src/include/ListaCircularDuplamenteEncadeada.h:14:86: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:10:26: warning: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:9:6: warning:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:14:5: warning:   when initialized here [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:15:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h:16:9: error: invalid use of incomplete type ‘class ElementoDuplo<Parada>’
+In file included from ../src/include/ListaCircularDuplamenteEncadeada.h:1:0,
+                 from ../src/include/Linha.h:1,
+                 from ../src/Linha.cpp:1:
+../src/include/ElementoDuplo.h:4:7: error: declaration of ‘class ElementoDuplo<Parada>’
+make: ** [src/Linha.o] Erro 1
+18:54:14 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Linha.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+../src/Linha.cpp:3:14:   required from here
+../src/include/ListaCircularDuplamenteEncadeada.h:10:26: warning: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:9:6: warning:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:14:5: warning:   when initialized here [-Wreorder]
+Finished building: ../src/Linha.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+18:54:30 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+19:22:17 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+Building file: ../src/Cidade.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cidade.d" -MT"src/Cidade.d" -o "src/Cidade.o" "../src/Cidade.cpp"
+Finished building: ../src/Cidade.cpp
+ 
+Building file: ../src/Linha.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linha.d" -MT"src/Linha.d" -o "src/Linha.o" "../src/Linha.cpp"
+In file included from ../src/include/Linha.h:1:0,
+                 from ../src/Linha.cpp:1:
+../src/include/ListaCircularDuplamenteEncadeada.h: In instantiation of ‘ListaCircularDuplamenteEncadeada<Tipo>::ListaCircularDuplamenteEncadeada() [with Tipo = Parada]’:
+../src/Linha.cpp:3:14:   required from here
+../src/include/ListaCircularDuplamenteEncadeada.h:10:26: warning: ‘ListaCircularDuplamenteEncadeada<Parada>::cabeca’ will be initialized after [-Wreorder]
+Finished building: ../src/Linha.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+../src/include/ListaCircularDuplamenteEncadeada.h:9:6: warning:   ‘int ListaCircularDuplamenteEncadeada<Parada>::tamanho’ [-Wreorder]
+../src/include/ListaCircularDuplamenteEncadeada.h:14:5: warning:   when initialized here [-Wreorder]
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Parada.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parada.d" -MT"src/Parada.d" -o "src/Parada.o" "../src/Parada.cpp"
+Finished building: ../src/Parada.cpp
+ 
+Building target: EDPonteiros
+Invoking: Cross G++ Linker
+g++  -o "EDPonteiros"  ./src/Cidade.o ./src/InformaDados.o ./src/Linha.o ./src/Main.o ./src/Parada.o ./src/RecebeDados.o   
+Finished building target: EDPonteiros
+ 
+19:23:27 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
+19:23:43 **** Incremental Build of configuration Debug for project EDPonteiros ****
+make all 
+make: Nada a ser feito para `all'.
