@@ -5,7 +5,11 @@
 #include "Horario.h"
 
 class Linha : public ListaCircularDuplamenteEncadeada<Parada> {
+    
+    Parada _destino;
+    
 public:
+    
     Linha();
     virtual ~Linha();
 
@@ -15,16 +19,7 @@ public:
      *
      * @return Parada
      */
-    Parada proxima(Parada p) {
-        ElementoDuplo<Parada>* aux;
-        aux = cabeca;
-
-        while (p != aux->dado) {
-            aux = aux->proximo;
-        }
-
-        return aux->proximo->dado;
-    }
+    Parada proxima(Parada p);
 
     /** @brief mostra a parada anterior a uma Parada da Linha
      *
@@ -32,15 +27,10 @@ public:
      *
      * @return Parada
      */
-    Parada anterior(Parada p) {
-        ElementoDuplo<Parada>* aux;
-        aux = cabeca;
-
-        while (p != aux->dado) {
-            aux = aux->proximo;
-        }
-
-        return aux->anterior->dado;
-    }
+    Parada anterior(Parada p);
+    
+    Parada destino();
+    
+    void setDestino(Parada p);
 };
 #endif

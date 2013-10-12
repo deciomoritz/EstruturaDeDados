@@ -15,7 +15,7 @@ std::string Cidade::getDescricao(){
 	return descricao;
 }
 
-std::string Cidade::getNome(){
+std::string Cidade::getNome() const{
 	return nome;
 }
 

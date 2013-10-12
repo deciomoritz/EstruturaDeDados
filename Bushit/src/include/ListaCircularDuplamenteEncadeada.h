@@ -32,7 +32,7 @@ public:
         novo = new ElementoDuplo<Tipo>(t);
 
         if (novo == 0)
-            throw std::runtime_error("Impossível adicionar nova transação! Erro de lista cheia!");
+            throw std::runtime_error("Impossível adicionar novo Elemento! Erro de lista cheia!");
         tamanho++;
 
         novo->proximo = cabeca->proximo;
@@ -41,7 +41,7 @@ public:
         novo->proximo->anterior = novo;
     }
 
-    /** @brief adiciona dado no fim
+    /** @brief adiciona dado no fims
      *
      * @param Tipo d: dado do tipo definido na classea ser adicionado.
      *
@@ -52,7 +52,7 @@ public:
     void adicionar(Tipo t) {
         ElementoDuplo<Tipo> *novo = new ElementoDuplo<Tipo>(t);
         if (novo == 0)
-            throw std::runtime_error("Deu merda");
+            throw std::runtime_error("Deu merda na lista");
         novo->anterior = cabeca->anterior;
         novo->anterior->proximo = novo;
         novo->proximo = cabeca;
@@ -168,7 +168,7 @@ public:
      */
     Tipo mostra(int i) {
         if (i < 0 || i >= tamanho)
-            throw -1;
+            throw std::runtime_error("Deu merda no mostrar. Novas.");
 
         if (i == 0)
             return cabeca->proximo->dado;
@@ -212,7 +212,7 @@ public:
      */
     void limpar() {
         while (!vazia())
-            remover();
+            removerDoInicio();
     }
 
     /** @brief retorna o tamanho da lista

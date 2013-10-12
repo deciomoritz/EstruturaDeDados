@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "include/Minuto.h"
 
 Minuto::Minuto(int temp) {
@@ -9,4 +10,8 @@ Minuto::Minuto(int temp) {
 
 Minuto::Minuto() {
 
+}
+
+int Minuto::operator-(Minuto& m){
+    return abs(tmp - m.tmp);
 }

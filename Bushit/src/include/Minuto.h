@@ -24,6 +24,7 @@ public:
      */
     Minuto();
 
+    int operator-(Minuto& m);
 };
 
 #endif	

@@ -68,6 +68,8 @@ public:
 	 * @remarks '<' 'e sobrescrito para permitir comparacao entre objetos do tipo Horario
 	 */
 	bool operator!=(Horario& hr);
+        
+        float operator-(Horario& hr);
 
 	Horario();
 

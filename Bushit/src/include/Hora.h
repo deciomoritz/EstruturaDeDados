@@ -21,6 +21,8 @@ public:
     Hora(int temp);
 
     Hora();
+    
+    int operator-(Hora& hr);
 };
 
 

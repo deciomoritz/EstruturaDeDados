@@ -33,6 +33,13 @@ public:
      * @return string
      */
     std::string toString();
+    
+    bool semelhante(Parada p);
+    
+    Horario getHorarioChegada();
+    
+    bool operator ==(Parada & p);
+    
 };
 #endif
 

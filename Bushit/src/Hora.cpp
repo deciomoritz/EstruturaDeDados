@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 #include "include/Hora.h"
 
 Hora::Hora(int temp) {
@@ -8,4 +10,8 @@ Hora::Hora(int temp) {
 }
 
 Hora::Hora() {
+}
+
+int Hora::operator-(Hora& hr){
+    return abs(tmp - hr.tmp);
 }

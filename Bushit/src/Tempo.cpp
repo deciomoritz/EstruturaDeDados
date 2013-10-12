@@ -3,8 +3,8 @@
 Tempo::Tempo(){}
 
 bool Tempo::operator==(Tempo& t) {
-	if (un != t.un)
-		throw std::runtime_error("Unidades de tempo diferentes");
+	//if (un != t.un)
+	//	throw std::runtime_error("Unidades de tempo diferentes");
 	return tmp == t.tmp;
 }
 

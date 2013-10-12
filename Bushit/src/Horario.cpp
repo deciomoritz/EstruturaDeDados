@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "include/Horario.h"
 
 Horario::Horario() {}
@@ -27,7 +28,7 @@ Horario::Horario(Hora hr, Minuto min, Segundo seg) {
 }
 
 bool Horario::operator!=(Horario& hr){
-	return !(h == hr.h && m == hr.m && s == hr.s);
+	return !(h == hr.h) && !(m == hr.m) && !(s == hr.s);
 }
 
 Horario Horario::fabrica(int h, int m, int s) {
@@ -36,4 +37,8 @@ Horario Horario::fabrica(int h, int m, int s) {
 	Segundo seg(s);
 	Horario hor(hr, min, seg);
 	return hor;
+}
+
+float Horario::operator-(Horario& hr){
+    return abs(h - hr.h) + abs(m - hr.m)*0.01;
 }

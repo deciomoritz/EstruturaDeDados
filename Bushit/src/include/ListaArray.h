@@ -129,7 +129,7 @@ public:
      *
      * @remarks Essa função não pode ser chamada com a estrutura vazia
      */
-    Tipo mostrar(int i) {
+    Tipo mostra(int i) {
         if (!vazia())
             return arr[i];
         throw std::runtime_error("Lista vazia");

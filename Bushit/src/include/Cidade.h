@@ -27,7 +27,7 @@ public:
      * @return string
      *
      */
-    std::string getNome();
+    std::string getNome() const;
 };
 #endif
 

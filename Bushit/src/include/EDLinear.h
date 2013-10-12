@@ -1,6 +1,6 @@
 #include "EstruturaDeDados.h"
 #include <stdexcept>
-const int MAX = 30;
+const int MAX = 30000;
 
 template<typename Tipo>
 class EDLinear : public EstruturaDeDados<Tipo> {
